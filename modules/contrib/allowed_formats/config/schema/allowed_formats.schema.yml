@@ -1,0 +1,6 @@
+field.field.*.*.*.third_party.allowed_formats:
+  type: sequence
+  label: Allowed formats
+  sequence:
+    type: string
+    label: Allowed format
