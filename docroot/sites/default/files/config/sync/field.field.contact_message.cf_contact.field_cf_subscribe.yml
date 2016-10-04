@@ -1,0 +1,25 @@
+uuid: 01c3bc90-2439-469c-95fc-d731f6dfb080
+langcode: fr
+status: true
+dependencies:
+  config:
+    - contact.form.cf_contact
+    - field.storage.contact_message.field_cf_subscribe
+_core:
+  default_config_hash: 3Ww_TgRaeYNQjwUtfxK27bpQrAAFen3Mya3YSLw9obw
+id: contact_message.cf_contact.field_cf_subscribe
+field_name: field_cf_subscribe
+entity_type: contact_message
+bundle: cf_contact
+label: Subscribe
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Je souhaite rester informé de l’évolution de la solution Addidrive.'
+  off_label: Désactivé
+field_type: boolean

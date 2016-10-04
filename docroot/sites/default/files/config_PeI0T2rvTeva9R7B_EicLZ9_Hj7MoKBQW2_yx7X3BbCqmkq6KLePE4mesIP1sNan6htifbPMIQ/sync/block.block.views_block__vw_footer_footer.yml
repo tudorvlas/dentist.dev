@@ -1,0 +1,26 @@
+uuid: 05176874-d508-48c2-bf0c-3818bdea5c4e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.vw_footer
+  module:
+    - views
+  theme:
+    - addidrive
+_core:
+  default_config_hash: cUNgAdwXukvpBZy2ssIHnhc2Q7IGWFfd7MGrIDCYCdU
+id: views_block__vw_footer_footer
+theme: addidrive
+region: footer
+weight: -6
+provider: null
+plugin: 'views_block:vw_footer-footer'
+settings:
+  id: 'views_block:vw_footer-footer'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

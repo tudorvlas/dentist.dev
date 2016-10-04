@@ -1,0 +1,15 @@
+uuid: 3325cfee-19fb-4f36-b0cb-d38ee21afbe4
+langcode: fr
+status: true
+dependencies: {  }
+name: is_sidebar
+label: 'AD sidebar'
+effects:
+  6cb14198-e13f-4cfe-b7f7-b884f0ba3a1f:
+    uuid: 6cb14198-e13f-4cfe-b7f7-b884f0ba3a1f
+    id: image_scale
+    weight: -10
+    data:
+      width: 485
+      height: null
+      upscale: true

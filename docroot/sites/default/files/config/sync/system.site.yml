@@ -1,0 +1,14 @@
+uuid: 3267e35b-076c-48c5-987e-3d1766a3d732
+name: Addidrive
+mail: admin@addidrive.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /homepage
+admin_compact_mode: false
+weight_select_max: 100
+langcode: fr
+default_langcode: fr
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

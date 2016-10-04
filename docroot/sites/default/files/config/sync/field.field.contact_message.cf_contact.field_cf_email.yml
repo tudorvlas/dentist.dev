@@ -1,0 +1,21 @@
+uuid: d3307b2a-dfd1-40b5-be15-fd5f96f2dc68
+langcode: fr
+status: true
+dependencies:
+  config:
+    - contact.form.cf_contact
+    - field.storage.contact_message.field_cf_email
+_core:
+  default_config_hash: P1jsL8Gt8_ZkJazrPtJy7mcjA_qdrWDgRmZomtZP5ho
+id: contact_message.cf_contact.field_cf_email
+field_name: field_cf_email
+entity_type: contact_message
+bundle: cf_contact
+label: 'E-mail :'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

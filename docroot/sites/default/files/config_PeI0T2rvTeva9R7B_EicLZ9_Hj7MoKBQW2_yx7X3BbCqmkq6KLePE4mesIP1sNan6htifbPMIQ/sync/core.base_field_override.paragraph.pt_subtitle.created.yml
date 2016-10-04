@@ -1,0 +1,18 @@
+uuid: 0d7dfee1-bb14-4767-987b-cf7e0c1db5ee
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.pt_subtitle
+id: paragraph.pt_subtitle.created
+field_name: created
+entity_type: paragraph
+bundle: pt_subtitle
+label: 'Écrit le'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

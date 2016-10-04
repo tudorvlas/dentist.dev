@@ -1,0 +1,9 @@
+uuid: bbd275e0-ba43-419e-bd19-8186baefe62e
+langcode: fr
+status: true
+dependencies: {  }
+id: view.vw_news.news_list
+label: 'News List'
+tags:
+  title: ''
+  description: ''

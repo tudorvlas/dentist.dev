@@ -1,0 +1,20 @@
+uuid: cb15ebff-eee5-44e6-b8ef-7a51ec40f2fe
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.pt_quote
+_core:
+  default_config_hash: 22fnsj8-UE5GO1vSTpbv_1NjTklIFyFzq58-vbX8-cU
+id: paragraph.pt_quote.changed
+field_name: changed
+entity_type: paragraph
+bundle: pt_quote
+label: Modifié
+description: 'The time that the Paragraph was last edited.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

@@ -1,0 +1,20 @@
+uuid: c450e32f-b48a-4a21-a435-5bc2c8bd3354
+langcode: fr
+status: true
+dependencies:
+  module:
+    - f_global
+  theme:
+    - addidrive
+id: bk_related_menu
+theme: addidrive
+region: sidebar_first
+weight: -10
+provider: null
+plugin: bk_related_menu
+settings:
+  id: bk_related_menu
+  label: 'Related navigation'
+  provider: f_ct_page
+  label_display: '0'
+visibility: {  }

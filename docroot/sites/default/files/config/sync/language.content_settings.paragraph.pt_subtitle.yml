@@ -1,0 +1,16 @@
+uuid: f16c3034-37cb-4d3b-adcd-7911ce975af9
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.pt_subtitle
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: paragraph.pt_subtitle
+target_entity_type_id: paragraph
+target_bundle: pt_subtitle
+default_langcode: site_default
+language_alterable: true

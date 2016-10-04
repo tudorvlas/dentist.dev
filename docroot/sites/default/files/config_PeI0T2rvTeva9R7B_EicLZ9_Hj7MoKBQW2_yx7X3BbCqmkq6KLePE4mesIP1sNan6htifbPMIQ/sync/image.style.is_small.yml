@@ -1,0 +1,14 @@
+uuid: e7815ad0-5f95-4b15-a84c-39ce6bea5b08
+langcode: fr
+status: true
+dependencies: {  }
+name: is_small
+label: 'AD small'
+effects:
+  c2339c16-6b2f-4da8-9c6d-94427b1f5e02:
+    uuid: c2339c16-6b2f-4da8-9c6d-94427b1f5e02
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 220
+      height: 150

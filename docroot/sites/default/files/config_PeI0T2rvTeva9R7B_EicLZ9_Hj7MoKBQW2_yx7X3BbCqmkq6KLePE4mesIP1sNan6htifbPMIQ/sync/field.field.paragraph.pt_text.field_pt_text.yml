@@ -1,0 +1,29 @@
+uuid: 4bd18fad-3acc-4ca8-ae9c-51d3f166439a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_pt_text
+    - paragraphs.paragraphs_type.pt_text
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    tf_rich_text: tf_rich_text
+    tf_slide_title: '0'
+    plain_text: '0'
+_core:
+  default_config_hash: GndUJmk7KdLge9qDa_IyuWXaZp6f5_hYAVtLBWlUnzA
+id: paragraph.pt_text.field_pt_text
+field_name: field_pt_text
+entity_type: paragraph
+bundle: pt_text
+label: Text
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

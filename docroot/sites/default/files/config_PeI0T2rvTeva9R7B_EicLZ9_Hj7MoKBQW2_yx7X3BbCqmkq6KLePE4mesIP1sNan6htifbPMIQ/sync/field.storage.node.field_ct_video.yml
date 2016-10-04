@@ -1,0 +1,21 @@
+uuid: d41caa55-ed68-4e57-b099-8db0cfb0b369
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - video_embed_field
+_core:
+  default_config_hash: 45o3HL3eawZuPC_0hAX7G3FkFfEEfwlqlsONfIAzKJU
+id: node.field_ct_video
+field_name: field_ct_video
+entity_type: node
+type: video_embed_field
+settings: {  }
+module: video_embed_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

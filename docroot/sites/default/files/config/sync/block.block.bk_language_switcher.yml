@@ -1,0 +1,20 @@
+uuid: 9a67404d-ad0e-4907-af44-17059b28e2d4
+langcode: fr
+status: false
+dependencies:
+  module:
+    - language
+  theme:
+    - addidrive
+id: bk_language_switcher
+theme: addidrive
+region: '-1'
+weight: -10
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  provider: language
+  label_display: '0'
+visibility: {  }

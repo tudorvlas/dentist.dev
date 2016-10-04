@@ -1,0 +1,19 @@
+#!/bin/bash
+
+
+# Execute chain to install modules.
+bin/src/drupal --root=docroot chain --file=../config/setup.yml
+
+cd docroot
+
+# Update database.
+drush updb -y
+
+# Rebuild cache.
+drush cr
+
+# Revert features.
+drush fra -y
+
+# Rebuild cache.
+drush cr

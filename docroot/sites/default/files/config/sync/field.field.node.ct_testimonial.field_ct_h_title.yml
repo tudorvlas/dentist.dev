@@ -1,0 +1,21 @@
+uuid: e4862127-9827-4d38-b526-8c5fbabe4931
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ct_h_title
+    - node.type.ct_testimonial
+_core:
+  default_config_hash: DS3Uts5d5CqDm5ZQREVwm0iTl9TqxaEcqr0_EY6ohyI
+id: node.ct_testimonial.field_ct_h_title
+field_name: field_ct_h_title
+entity_type: node
+bundle: ct_testimonial
+label: 'Introduction Title'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

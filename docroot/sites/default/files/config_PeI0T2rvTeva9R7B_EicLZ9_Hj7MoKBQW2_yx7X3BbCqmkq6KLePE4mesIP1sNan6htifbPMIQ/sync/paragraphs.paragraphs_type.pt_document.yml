@@ -1,0 +1,8 @@
+uuid: 7224d8f0-3e75-4f19-98da-afc3eb5cf1f7
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: KETmT15rQyBTn9zyQo5CO4FSoSilsdOINBAjxCKUaAw
+id: pt_document
+label: Document

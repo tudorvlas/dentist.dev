@@ -1,0 +1,29 @@
+uuid: 0f3ed254-4f3a-4069-a6de-d41301b5572c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.vb_target_profile.field_target_profile
+    - taxonomy.vocabulary.vb_target_profile
+  module:
+    - text
+id: taxonomy_term.vb_target_profile.default
+targetEntityType: taxonomy_term
+bundle: vb_target_profile
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+  field_target_profile:
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+hidden:
+  langcode: true

@@ -1,0 +1,10 @@
+uuid: baa393f4-db7c-47ad-b0e6-6624aeb79ddc
+langcode: fr
+status: true
+dependencies: {  }
+id: contact.site_page
+label: Contact
+tags:
+  referrer: no-referrer
+  description: 'Contactez les équipes de Poclain Powertrain pour obtenir des renseignements complémentaires sur la solution de transmission intégrale Addidrive.'
+  title: 'Contact Addidrive'

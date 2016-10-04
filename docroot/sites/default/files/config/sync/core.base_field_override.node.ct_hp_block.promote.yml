@@ -1,0 +1,24 @@
+uuid: 119804d9-fc04-4c7a-b38d-a4e84fdf7030
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.ct_hp_block
+_core:
+  default_config_hash: PMXntfkL_MB4HkRCyoZCdhnAVpOqnqHRuAGMEymQmKk
+id: node.ct_hp_block.promote
+field_name: promote
+entity_type: node
+bundle: ct_hp_block
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

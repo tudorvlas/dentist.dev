@@ -1,0 +1,6 @@
+#!/bin/bash
+
+NOW=`date +%Y-%m-%d-%H-%M-%S`
+
+# Backup database
+bin/src/drupal --root=docroot database:dump --file=../backup/db-$NOW.sql

@@ -1,0 +1,22 @@
+uuid: 5ef8709b-7f6d-4728-b4e2-1c16a756cc46
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.pt_quote
+_core:
+  default_config_hash: DPhhCBWKq1hSiUhwihwabSbsRyVens_uMaXdbQE0q1E
+id: paragraph.pt_quote.uid
+field_name: uid
+entity_type: paragraph
+bundle: pt_quote
+label: 'Écrit par'
+description: 'The user ID of the paragraphs author.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: 'Drupal\paragraphs\Entity\Paragraph::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

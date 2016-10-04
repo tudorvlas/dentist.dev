@@ -1,0 +1,36 @@
+uuid: 8b5a6c63-3595-42fa-9b7b-dfd7b5f34897
+langcode: fr
+status: true
+dependencies:
+  config:
+    - filter.format.tf_slide_title
+  module:
+    - ckeditor
+_core:
+  default_config_hash: YYx5HM-n7FYHpi8tg8xXHhQPLwAChN1vrqk4SixC-aE
+format: tf_slide_title
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formatting
+          items:
+            - Bold
+            - Italic
+        -
+          name: Styles
+          items:
+            - Styles
+  plugins:
+    stylescombo:
+      styles: "span.greenongrey|Green on grey\r\nspan.greyongreen|Grey on green\r\nspan.greyonblue|Grey on blue"
+image_upload:
+  status: false
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

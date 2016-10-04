@@ -1,0 +1,21 @@
+uuid: 458a268b-3ed0-4b5e-aeaa-cd7c39fb76eb
+langcode: fr
+status: true
+dependencies:
+  module:
+    - contact
+    - telephone
+_core:
+  default_config_hash: yD634lI7pdxmE3YVOw2eDV-VREnKOkRvQ7XVkYZuO3E
+id: contact_message.field_cf_phone
+field_name: field_cf_phone
+entity_type: contact_message
+type: telephone
+settings: {  }
+module: telephone
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

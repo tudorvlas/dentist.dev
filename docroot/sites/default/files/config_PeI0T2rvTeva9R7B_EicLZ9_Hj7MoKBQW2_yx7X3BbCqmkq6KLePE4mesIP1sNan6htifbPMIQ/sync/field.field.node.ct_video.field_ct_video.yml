@@ -1,0 +1,27 @@
+uuid: 667baadb-38c9-49ea-8695-ac4640f5941b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ct_video
+    - node.type.ct_video
+  module:
+    - video_embed_field
+_core:
+  default_config_hash: cdoXJAaZaVciSE4tdR9eKQSShl-hV1rkDZjUiisQYtA
+id: node.ct_video.field_ct_video
+field_name: field_ct_video
+entity_type: node
+bundle: ct_video
+label: Video
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    youtube: youtube
+    vimeo: '0'
+    youtube_playlist: '0'
+field_type: video_embed_field

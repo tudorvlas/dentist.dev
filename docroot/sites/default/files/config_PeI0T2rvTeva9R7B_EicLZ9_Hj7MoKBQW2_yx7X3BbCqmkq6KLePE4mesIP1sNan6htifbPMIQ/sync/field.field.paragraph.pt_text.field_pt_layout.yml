@@ -1,0 +1,21 @@
+uuid: e05d17f4-7e8a-44a9-80b5-d2a74cbbabc6
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_pt_layout
+    - paragraphs.paragraphs_type.pt_text
+  module:
+    - options
+id: paragraph.pt_text.field_pt_layout
+field_name: field_pt_layout
+entity_type: paragraph
+bundle: pt_text
+label: Layout
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,15 @@
+#!/bin/bash
+
+NOW=`date +%Y-%m-%d-%H-%M-%S`
+
+# Backup database
+bin/src/drupal --root=docroot database:dump --file=backup/db-$NOW.sql
+
+# Empty database
+bin/src/drupal --root=docroot database:table:drop
+
+# Execute chain to install drupal.
+bin/src/drupal --root=docroot chain --file=../config/config.yml
+
+# Execute chain to setup modules/themes.
+bin/src/drupal --root=docroot chain --file=../config/setup.yml

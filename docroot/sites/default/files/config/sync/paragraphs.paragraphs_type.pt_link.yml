@@ -1,0 +1,8 @@
+uuid: 010289b7-c5d8-4a14-a305-44435c884b1a
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: w8Ae2BmoXunvNMmLmSlG0XzraNCbDrSi-1YIHuon1nI
+id: pt_link
+label: Link

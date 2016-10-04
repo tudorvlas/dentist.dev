@@ -1,0 +1,76 @@
+uuid: bac769e0-1c46-4061-a923-f309cedaa0c6
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.ct_footer_block.field_ct_intro
+    - field.field.node.ct_footer_block.field_ct_weight
+    - node.type.ct_footer_block
+  module:
+    - path
+    - text
+    - weight
+_core:
+  default_config_hash: eqlya6U3_k8p5xnUl7-4ecInjsYpBpMcD1xZUAVNw70
+id: node.ct_footer_block.default
+targetEntityType: node
+bundle: ct_footer_block
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+  field_ct_intro:
+    weight: 31
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+  field_ct_weight:
+    weight: 32
+    settings: {  }
+    third_party_settings: {  }
+    type: weight_selector
+  langcode:
+    type: language_select
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 15
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

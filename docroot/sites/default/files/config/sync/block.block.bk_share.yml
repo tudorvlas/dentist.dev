@@ -1,0 +1,28 @@
+uuid: 15caf0e8-1cc3-4f96-a430-9601d1b2b19d
+langcode: fr
+status: false
+dependencies:
+  module:
+    - ctools
+    - sharethis
+  theme:
+    - addidrive
+id: bk_share
+theme: addidrive
+region: '-1'
+weight: -9
+provider: null
+plugin: sharethis_block
+settings:
+  id: sharethis_block
+  label: Share
+  provider: sharethis
+  label_display: '0'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      ct_news: ct_news
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

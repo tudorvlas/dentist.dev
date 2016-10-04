@@ -1,0 +1,47 @@
+uuid: f6d8d33f-3d8e-4a52-92e1-6c3f7ce8f8cd
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ct_image
+    - node.type.ct_hp_block
+  module:
+    - content_translation
+    - image
+third_party_settings:
+  content_translation:
+    translation_sync:
+      file: file
+      alt: '0'
+      title: '0'
+_core:
+  default_config_hash: bE26p7Q17Cszaj9F3c4XQC6eL1kR-0Xtj-Dl-gn-O_w
+id: node.ct_hp_block.field_ct_image
+field_name: field_ct_image
+entity_type: node
+bundle: ct_hp_block
+label: Image
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: false
+  title_field: true
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

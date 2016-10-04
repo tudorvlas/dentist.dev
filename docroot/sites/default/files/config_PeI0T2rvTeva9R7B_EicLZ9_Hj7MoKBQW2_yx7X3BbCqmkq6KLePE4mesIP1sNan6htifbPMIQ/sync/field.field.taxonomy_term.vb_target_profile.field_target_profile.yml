@@ -1,0 +1,26 @@
+uuid: 44aab2a8-6ddb-4dfb-8de6-59ed45a0a298
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_target_profile
+    - taxonomy.vocabulary.vb_target_profile
+id: taxonomy_term.vb_target_profile.field_target_profile
+field_name: field_target_profile
+entity_type: taxonomy_term
+bundle: vb_target_profile
+label: 'Target Profile'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      vb_target_profile: vb_target_profile
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

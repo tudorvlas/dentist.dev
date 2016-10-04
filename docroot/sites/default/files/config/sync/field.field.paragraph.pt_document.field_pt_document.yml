@@ -1,0 +1,29 @@
+uuid: 5892b05c-91ba-4444-8a73-d4c662187119
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_pt_document
+    - paragraphs.paragraphs_type.pt_document
+  module:
+    - file
+_core:
+  default_config_hash: qk4BaCDDWQfsuzFTF-mbxd-gT_mIpX_e9sYXSGa80rk
+id: paragraph.pt_document.field_pt_document
+field_name: field_pt_document
+entity_type: paragraph
+bundle: pt_document
+label: Document
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt pdf'
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

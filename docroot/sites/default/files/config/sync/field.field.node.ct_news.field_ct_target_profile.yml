@@ -1,0 +1,27 @@
+uuid: 2e4f0588-b452-45ea-96a6-42eb85277ec2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ct_target_profile
+    - node.type.ct_news
+    - taxonomy.vocabulary.vb_target_profile
+id: node.ct_news.field_ct_target_profile
+field_name: field_ct_target_profile
+entity_type: node
+bundle: ct_news
+label: 'Target profile'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      vb_target_profile: vb_target_profile
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

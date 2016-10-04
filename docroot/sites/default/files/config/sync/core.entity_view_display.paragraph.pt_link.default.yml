@@ -1,0 +1,30 @@
+uuid: a01e0062-f2bc-4982-9c83-bfb82041d0db
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pt_link.field_pt_link
+    - paragraphs.paragraphs_type.pt_link
+  module:
+    - f_global
+_core:
+  default_config_hash: dbTubuuHMcKyh3rdvX4N9sJF-P3Lnu63woByJ0mPZt8
+id: paragraph.pt_link.default
+targetEntityType: paragraph
+bundle: pt_link
+mode: default
+content:
+  field_pt_link:
+    weight: 0
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: ff_link
+hidden:
+  created: true
+  uid: true

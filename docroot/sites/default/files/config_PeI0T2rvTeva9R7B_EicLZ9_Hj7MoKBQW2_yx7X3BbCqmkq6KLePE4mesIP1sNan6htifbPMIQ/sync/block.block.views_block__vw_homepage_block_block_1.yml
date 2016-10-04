@@ -1,0 +1,32 @@
+uuid: f9413fd7-4690-4030-93eb-3579c15457ab
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.vw_homepage_block
+  module:
+    - system
+    - views
+  theme:
+    - addidrive
+_core:
+  default_config_hash: 8fYLSe5N4h0WA73QztDcvriWXSJhlmq4L_gl3O8e7DA
+id: views_block__vw_homepage_block_block_1
+theme: addidrive
+region: content
+weight: -1
+provider: null
+plugin: 'views_block:vw_homepage_block-block_1'
+settings:
+  id: 'views_block:vw_homepage_block-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

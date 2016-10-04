@@ -1,0 +1,7 @@
+sidebar:
+  image:
+    - '571'
+page:
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed vulputate turpis. Fusce placerat venenatis elit sit amet eleifend. Morbi molestie tincidunt dignissim. Nam rhoncus quam a augue sagittis, eget porttitor orci malesuada. Nulla facilisi.\r\n"
+  success_message: "L'équipe Addidrive vous remercie M/Mme pour votre message et vous assure que nous faisons tous pour répondre au plus vite à votre message.\r\n"
+langcode: fr

@@ -1,0 +1,24 @@
+uuid: 4eb4cb7c-e069-4816-81b0-7c3267bf55cd
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.ct_page
+_core:
+  default_config_hash: hjo-mG4dciyusDt22UIwTiyYp6Ah7SuAcobqOmZCPno
+id: node.ct_page.promote
+field_name: promote
+entity_type: node
+bundle: ct_page
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

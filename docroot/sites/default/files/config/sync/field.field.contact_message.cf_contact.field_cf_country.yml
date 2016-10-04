@@ -1,0 +1,21 @@
+uuid: 085612bb-2923-4e38-9f74-1b714fd23ae2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - contact.form.cf_contact
+    - field.storage.contact_message.field_cf_country
+  module:
+    - options
+id: contact_message.cf_contact.field_cf_country
+field_name: field_cf_country
+entity_type: contact_message
+bundle: cf_contact
+label: 'Pays :'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

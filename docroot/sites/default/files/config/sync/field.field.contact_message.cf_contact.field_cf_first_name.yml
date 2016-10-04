@@ -1,0 +1,21 @@
+uuid: 0f36168b-863a-4151-baa1-d3b536fa4702
+langcode: fr
+status: true
+dependencies:
+  config:
+    - contact.form.cf_contact
+    - field.storage.contact_message.field_cf_first_name
+_core:
+  default_config_hash: jS4AzezWKTt8FUwmF4O3R-HPimljbMprItXrs9xUZho
+id: contact_message.cf_contact.field_cf_first_name
+field_name: field_cf_first_name
+entity_type: contact_message
+bundle: cf_contact
+label: 'Prénom :'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

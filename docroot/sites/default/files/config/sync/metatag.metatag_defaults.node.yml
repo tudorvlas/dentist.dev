@@ -1,0 +1,13 @@
+uuid: 9a8dbfe4-4d79-4aa4-b11d-434cb2151020
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ydpmSCtxLjO9xqkBxObkeYx0Bf2dkW-d8bB_6Q1Ggjs
+id: node
+label: Content
+tags:
+  description: '[node:field_ct_intro]'
+  image_src: '[node:field_ct_image]'
+  referrer: no-referrer
+  title: '[node:title] | [site:name]'

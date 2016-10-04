@@ -1,0 +1,24 @@
+uuid: 47f8e9af-8b72-450d-934f-5a4dee11bba5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.ct_video
+_core:
+  default_config_hash: BVo3MHNvV6FDeoeWAPjHvJp-XvGXpE6VkKFu-e7c2Gg
+id: node.ct_video.promote
+field_name: promote
+entity_type: node
+bundle: ct_video
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

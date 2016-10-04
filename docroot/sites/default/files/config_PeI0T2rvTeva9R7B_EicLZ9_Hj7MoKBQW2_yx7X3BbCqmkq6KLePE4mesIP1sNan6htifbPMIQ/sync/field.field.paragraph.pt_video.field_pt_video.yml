@@ -1,0 +1,27 @@
+uuid: 98641178-cbe8-44bf-818d-077e15af3df2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_pt_video
+    - paragraphs.paragraphs_type.pt_video
+  module:
+    - video_embed_field
+_core:
+  default_config_hash: oE29OX0pins479w0z4L9sGBecpN7c5zZOBpaPJSqhns
+id: paragraph.pt_video.field_pt_video
+field_name: field_pt_video
+entity_type: paragraph
+bundle: pt_video
+label: 'Video link'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    vimeo: '0'
+    youtube: '0'
+    youtube_playlist: '0'
+field_type: video_embed_field

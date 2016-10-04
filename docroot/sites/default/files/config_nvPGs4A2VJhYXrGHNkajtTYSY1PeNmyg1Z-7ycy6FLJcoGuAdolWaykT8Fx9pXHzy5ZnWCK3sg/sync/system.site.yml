@@ -1,0 +1,14 @@
+uuid: 52652580-4648-45c5-9e36-8092bab48430
+name: Dentist
+mail: dentist@dentist.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

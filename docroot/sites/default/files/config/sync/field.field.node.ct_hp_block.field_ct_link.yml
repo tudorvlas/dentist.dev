@@ -1,0 +1,25 @@
+uuid: 9661aa23-8348-473e-9a34-0e5bbb5791aa
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ct_link
+    - node.type.ct_hp_block
+  module:
+    - link
+_core:
+  default_config_hash: DDnQKHe2MJS4RO93Da0RjTrSxvKuv9be27EtxPyY9sE
+id: node.ct_hp_block.field_ct_link
+field_name: field_ct_link
+entity_type: node
+bundle: ct_hp_block
+label: Link
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

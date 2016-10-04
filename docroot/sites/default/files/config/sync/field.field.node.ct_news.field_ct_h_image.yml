@@ -1,0 +1,47 @@
+uuid: ddc26603-482c-4fa7-926c-bac5c8e7285f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ct_h_image
+    - node.type.ct_news
+  module:
+    - content_translation
+    - image
+third_party_settings:
+  content_translation:
+    translation_sync:
+      file: file
+      alt: '0'
+      title: '0'
+_core:
+  default_config_hash: GJiMuh0SJCprQY3ouAVArJeac058UhWQSui2gtIgzI4
+id: node.ct_news.field_ct_h_image
+field_name: field_ct_h_image
+entity_type: node
+bundle: ct_news
+label: 'Highlight Image'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: false
+  title_field: true
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

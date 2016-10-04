@@ -1,0 +1,23 @@
+uuid: 4e48d518-ce45-412b-8b6e-96714301b977
+langcode: fr
+status: true
+dependencies:
+  config:
+    - contact.form.cf_contact
+    - field.storage.contact_message.field_cf_profile
+  module:
+    - options
+_core:
+  default_config_hash: Gvz6lxfNiiJP-326jwhQ-T9RjZIfy400ZybaMGpLtLs
+id: contact_message.cf_contact.field_cf_profile
+field_name: field_cf_profile
+entity_type: contact_message
+bundle: cf_contact
+label: 'Votre profil :'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,23 @@
+uuid: 1b9ae4e5-8efd-43eb-9da6-10e4d3d373fc
+langcode: fr
+status: true
+dependencies:
+  module:
+    - contact
+_core:
+  default_config_hash: 9xW76_Eg-hBJrH67R9gwkAQWDQXrSSjIjUjZwXgPk74
+id: contact_message.field_cf_last_name
+field_name: field_cf_last_name
+entity_type: contact_message
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

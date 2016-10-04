@@ -1,0 +1,18 @@
+uuid: 6e9a0c6e-a066-406e-82d9-0d288847ec0f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.pt_subtitle
+id: paragraph.pt_subtitle.changed
+field_name: changed
+entity_type: paragraph
+bundle: pt_subtitle
+label: Modifié
+description: 'The time that the Paragraph was last edited.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

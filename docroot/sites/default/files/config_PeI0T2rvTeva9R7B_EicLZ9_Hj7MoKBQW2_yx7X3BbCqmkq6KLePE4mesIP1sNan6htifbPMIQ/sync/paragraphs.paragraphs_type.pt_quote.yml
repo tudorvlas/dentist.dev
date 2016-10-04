@@ -1,0 +1,8 @@
+uuid: 697be950-a4f6-49ef-8067-37ef519e0a75
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rdDCDCVZvVgj3udjqYVEO2i_vlJSFTHrxHScOlulQMI
+id: pt_quote
+label: Quote

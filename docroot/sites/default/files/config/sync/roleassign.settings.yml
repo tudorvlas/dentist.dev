@@ -1,0 +1,7 @@
+roleassign_roles:
+  contributor: contributor
+  functional_administrator: functional_administrator
+  administrator: '0'
+_core:
+  default_config_hash: iKucdYPrf1EPMz6Y3s71EADiRcAiwoLTIw9_JoxH-Jg
+langcode: fr

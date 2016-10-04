@@ -1,0 +1,32 @@
+uuid: ae950d9c-b32b-4923-a278-5294d07f5388
+langcode: fr
+status: true
+dependencies:
+  module:
+    - contact
+    - options
+_core:
+  default_config_hash: BqDWLaAiNjGC3c8T7c1wANef8f18PqFNtVaVkHT_SCQ
+id: contact_message.field_cf_profile
+field_name: field_cf_profile
+entity_type: contact_message
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Professionnel
+      label: Professionnel
+    -
+      value: Particulier
+      label: Particulier
+    -
+      value: Journaliste
+      label: Journaliste
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

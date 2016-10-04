@@ -1,0 +1,24 @@
+uuid: 82a15fce-13f7-463d-a50b-e98621f56e50
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: node
+label: Node
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  0dc55ad2-72a3-4adb-ba9c-e715588e7a1f:
+    id: node_type
+    bundles:
+      ct_news: ct_news
+      ct_page: ct_page
+      ct_testimonial: ct_testimonial
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 0dc55ad2-72a3-4adb-ba9c-e715588e7a1f
+selection_logic: and
+weight: -5
+relationships: {  }

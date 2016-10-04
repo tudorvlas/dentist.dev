@@ -1,0 +1,11 @@
+uuid: 9c2111f3-dc30-411c-b0b0-5a61ebbc3393
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wcTV5wdmdgiDePrwtwUA0nK1sTkIzGRr7er3wL-lxcE
+id: fr
+label: French
+direction: ltr
+weight: 0
+locked: false

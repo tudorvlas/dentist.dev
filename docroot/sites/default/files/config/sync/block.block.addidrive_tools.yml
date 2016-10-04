@@ -1,0 +1,24 @@
+uuid: 6c174fd6-4b26-47a5-8b14-2312095e3c58
+langcode: fr
+status: false
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - addidrive
+id: addidrive_tools
+theme: addidrive
+region: '-1'
+weight: -1
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Outils
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

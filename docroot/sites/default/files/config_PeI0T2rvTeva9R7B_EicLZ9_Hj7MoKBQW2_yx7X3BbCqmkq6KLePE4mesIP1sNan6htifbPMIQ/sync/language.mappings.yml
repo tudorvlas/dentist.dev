@@ -1,0 +1,14 @@
+map:
+  'no': nb
+  pt: pt-pt
+  zh: zh-hans
+  zh-tw: zh-hant
+  zh-hk: zh-hant
+  zh-mo: zh-hant
+  zh-cht: zh-hant
+  zh-cn: zh-hans
+  zh-sg: zh-hans
+  zh-chs: zh-hans
+langcode: fr
+_core:
+  default_config_hash: el4bH2j_jnmNIUNKNVJWY_Eq_7wiN4J6UH-Nip9Dtpk

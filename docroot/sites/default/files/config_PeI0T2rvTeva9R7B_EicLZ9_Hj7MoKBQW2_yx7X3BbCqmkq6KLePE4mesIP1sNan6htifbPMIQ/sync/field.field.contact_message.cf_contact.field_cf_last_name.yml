@@ -1,0 +1,21 @@
+uuid: 75904cb9-21e3-4855-8965-a777fe222a5a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - contact.form.cf_contact
+    - field.storage.contact_message.field_cf_last_name
+_core:
+  default_config_hash: Y_FO6sAsiARGTigF6npQS2stY1_Cw2mp26tPNsF6uZw
+id: contact_message.cf_contact.field_cf_last_name
+field_name: field_cf_last_name
+entity_type: contact_message
+bundle: cf_contact
+label: 'Nom :'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

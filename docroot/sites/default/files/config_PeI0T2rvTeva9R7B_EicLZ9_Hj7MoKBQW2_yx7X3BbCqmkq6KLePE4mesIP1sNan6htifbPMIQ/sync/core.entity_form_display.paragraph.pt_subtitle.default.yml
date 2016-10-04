@@ -1,0 +1,24 @@
+uuid: 55beec57-e899-47a7-af30-ea2b17e50736
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pt_subtitle.field_pt_title
+    - paragraphs.paragraphs_type.pt_subtitle
+_core:
+  default_config_hash: YoB-nHyuRXAV7OfnW58wT1g4wCDPdi5fuyCTnaaUAe8
+id: paragraph.pt_subtitle.default
+targetEntityType: paragraph
+bundle: pt_subtitle
+mode: default
+content:
+  field_pt_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+hidden:
+  created: true
+  uid: true

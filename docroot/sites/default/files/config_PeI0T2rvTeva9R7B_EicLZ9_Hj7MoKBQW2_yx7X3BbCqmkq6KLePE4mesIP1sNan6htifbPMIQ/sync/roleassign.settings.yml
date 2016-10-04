@@ -1,0 +1,5 @@
+roleassign_roles:
+  contributor: contributor
+  functional_administrator: functional_administrator
+  administrator: '0'
+langcode: fr

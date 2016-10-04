@@ -1,0 +1,29 @@
+uuid: b133a3bb-a755-4b9d-ac77-06bf16421005
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ct_intro
+    - node.type.ct_footer_block
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    tf_rich_text: tf_rich_text
+    tf_slide_title: '0'
+    plain_text: '0'
+_core:
+  default_config_hash: hpy2I9fLuq8ET2kzwtrs9g1a9VKMDJXpgp0l4UlvIac
+id: node.ct_footer_block.field_ct_intro
+field_name: field_ct_intro
+entity_type: node
+bundle: ct_footer_block
+label: Text
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

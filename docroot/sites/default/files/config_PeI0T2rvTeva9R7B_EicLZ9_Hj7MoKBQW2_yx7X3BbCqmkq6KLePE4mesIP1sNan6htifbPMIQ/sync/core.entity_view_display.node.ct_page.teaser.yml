@@ -1,0 +1,28 @@
+uuid: cb3cd968-60e1-408c-ad13-dcf0f7b2a30d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ct_page.field_ct_components
+    - field.field.node.ct_page.field_ct_image
+    - field.field.node.ct_page.field_ct_meta_tags
+    - field.field.node.ct_page.field_ct_target_profile
+    - node.type.ct_page
+  module:
+    - user
+_core:
+  default_config_hash: _VF7bq2hobvO5pFRF_sRWUwiAfng_dVieiavOqqt2cM
+id: node.ct_page.teaser
+targetEntityType: node
+bundle: ct_page
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden:
+  field_ct_components: true
+  field_ct_image: true
+  field_ct_meta_tags: true
+  field_ct_target_profile: true
+  langcode: true

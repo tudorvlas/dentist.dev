@@ -1,0 +1,30 @@
+uuid: 80c95512-f9fa-4be7-bd89-c6faeee95e24
+langcode: fr
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_pt_layout
+field_name: field_pt_layout
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: image_left
+      label: 'Image left'
+    -
+      value: image_right
+      label: 'Image right'
+    -
+      value: image_full
+      label: 'Image full width'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

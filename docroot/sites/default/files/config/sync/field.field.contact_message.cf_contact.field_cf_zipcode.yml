@@ -1,0 +1,19 @@
+uuid: f9bc0838-1c9a-4feb-a2dd-e928c6c2fa9a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - contact.form.cf_contact
+    - field.storage.contact_message.field_cf_zipcode
+id: contact_message.cf_contact.field_cf_zipcode
+field_name: field_cf_zipcode
+entity_type: contact_message
+bundle: cf_contact
+label: 'Code postal :'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

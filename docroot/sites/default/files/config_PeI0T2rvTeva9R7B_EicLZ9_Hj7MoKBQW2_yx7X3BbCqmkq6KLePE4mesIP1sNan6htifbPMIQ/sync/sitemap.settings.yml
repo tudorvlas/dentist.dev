@@ -1,0 +1,35 @@
+page_title: 'Plan du site'
+message:
+  value: ''
+  format: tf_rich_text
+show_front: false
+show_titles: true
+show_books: {  }
+books_expanded: true
+show_menus:
+  main: main
+  account: '0'
+  admin: '0'
+  footer: '0'
+  tools: '0'
+show_menus_hidden: false
+show_vocabularies:
+  vb_target_profile: '0'
+show_description: false
+show_count: false
+vocabulary_depth: -1
+term_threshold: 0
+forum_threshold: -1
+rss_front: rss.xml
+show_rss_links: 0
+rss_taxonomy: -1
+css: false
+order:
+  front: -50
+  menus_account: -50
+  menus_admin: -50
+  menus_footer: -50
+  menus_main: -50
+  menus_tools: -50
+  vocabularies_vb_target_profile: -50
+langcode: fr

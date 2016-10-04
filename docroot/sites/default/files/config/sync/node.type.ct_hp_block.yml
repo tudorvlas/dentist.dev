@@ -1,0 +1,13 @@
+uuid: 6bf4f795-8eab-4386-8ea1-c715603f927f
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: EOsCboQS8umJHJzVc0ZqPIR7jpjiBR5gjeVeeLCe8so
+name: 'Homepage Block'
+type: ct_hp_block
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,29 @@
+uuid: 81930b11-8f66-4bea-a57f-333b2226a104
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ct_intro
+    - node.type.ct_news
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    tf_rich_text: tf_rich_text
+    tf_slide_title: '0'
+    plain_text: '0'
+_core:
+  default_config_hash: rA6_IjLEMpQpPkRLTfn4M5H3qU1KrXxml4Pp3ZQY1Dw
+id: node.ct_news.field_ct_intro
+field_name: field_ct_intro
+entity_type: node
+bundle: ct_news
+label: Introduction
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

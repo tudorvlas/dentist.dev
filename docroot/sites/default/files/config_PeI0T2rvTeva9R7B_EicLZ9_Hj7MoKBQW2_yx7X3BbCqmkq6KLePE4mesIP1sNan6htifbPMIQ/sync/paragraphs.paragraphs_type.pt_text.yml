@@ -1,0 +1,8 @@
+uuid: de477d20-aab9-43ab-b0be-e74e4b696da6
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dakd3Dx0Gmqm_guhCakweqYEV2CjC8BILnbZz3pnMAM
+id: pt_text
+label: Text

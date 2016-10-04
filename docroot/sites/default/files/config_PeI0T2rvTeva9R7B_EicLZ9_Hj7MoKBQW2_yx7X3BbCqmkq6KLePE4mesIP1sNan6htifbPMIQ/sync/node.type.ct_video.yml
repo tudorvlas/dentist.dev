@@ -1,0 +1,13 @@
+uuid: 6bea4cc7-bd38-4e99-8693-1b21ad57783d
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rMWOKmXgw_np-PTDYI6jmXYy0vdYqofStQTG3sdIs-s
+name: 'Homepage Video'
+type: ct_video
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,29 @@
+uuid: 87127f3c-04f7-4972-82d5-56e0f4ffecad
+langcode: fr
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: Z3eg2kIpMkcYl_1oGlTkpHU_M2nGcn-RXay-2YJchds
+id: paragraph.field_pt_heading
+field_name: field_pt_heading
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: h2
+      label: H2
+    -
+      value: h3
+      label: H3
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

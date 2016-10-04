@@ -1,0 +1,7 @@
+display:
+  news_list:
+    display_options:
+      title: 'Our News'
+  press_list:
+    display_options:
+      title: 'Press Releases'

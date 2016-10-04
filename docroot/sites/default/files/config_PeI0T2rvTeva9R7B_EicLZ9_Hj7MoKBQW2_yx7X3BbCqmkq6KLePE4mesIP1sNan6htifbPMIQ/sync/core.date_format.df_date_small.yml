@@ -1,0 +1,8 @@
+uuid: e1a7f90e-3453-4bab-b1e3-0cf4b24bce83
+langcode: fr
+status: true
+dependencies: {  }
+id: df_date_small
+label: 'AD Date Small'
+locked: false
+pattern: d/m/Y

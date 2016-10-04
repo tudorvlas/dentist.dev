@@ -1,0 +1,26 @@
+uuid: 96bcec96-c400-4ef9-b748-62c407ac4d2f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.vm_testimonials
+    - field.field.paragraph.pt_document.field_pt_document
+    - field.field.paragraph.pt_document.field_pt_image
+    - paragraphs.paragraphs_type.pt_document
+  module:
+    - f_pt_document
+id: paragraph.pt_document.vm_testimonials
+targetEntityType: paragraph
+bundle: pt_document
+mode: vm_testimonials
+content:
+  field_pt_document:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: ff_testimonials_document
+hidden:
+  created: true
+  field_pt_image: true
+  uid: true

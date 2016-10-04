@@ -1,0 +1,10 @@
+uuid: 1c799710-0076-4710-b88a-5529d8465eee
+langcode: fr
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.vm_testimonials
+label: Testimonials
+targetEntityType: paragraph
+cache: true

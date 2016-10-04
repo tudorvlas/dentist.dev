@@ -1,0 +1,28 @@
+uuid: 644cb0e5-5cf0-4084-a53e-bbbb21aaae52
+langcode: fr
+status: true
+dependencies:
+  module:
+    - f_ct_news
+    - node
+  theme:
+    - addidrive
+id: bk_news_detail_sidebar
+theme: addidrive
+region: sidebar_first
+weight: -9
+provider: null
+plugin: bk_news_sidebar
+settings:
+  id: bk_news_detail_sidebar
+  label: 'News Sidebar'
+  provider: f_ct_news
+  label_display: '0'
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      ct_news: ct_news
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

@@ -1,0 +1,18 @@
+uuid: 40c5e5c7-8aee-4383-a54d-e3d98605c549
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 9r4VWUl83tnb7qbutJVERo_w158Ym9OPVtywf_V7m6M
+id: authenticated
+label: 'Authenticated user'
+weight: -9
+is_admin: false
+permissions:
+  - 'access content'
+  - 'edit own comments'
+  - 'post comments'
+  - 'access comments'
+  - 'access sitemap'
+  - 'access site-wide contact form'
+  - 'display EU Cookie Compliance popup'

@@ -1,0 +1,14 @@
+uuid: 5911884c-a511-4a9a-b277-78099dcadefb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.functional_administrator
+  module:
+    - user
+id: user_remove_role_action.functional_administrator
+label: 'Retirer le rôle Functional Administrator aux utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: functional_administrator

@@ -1,0 +1,52 @@
+uuid: cd1eb597-a4c3-449b-961b-987ec9f352c0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ct_carousel.field_ct_image
+    - field.field.node.ct_carousel.field_ct_slide_link
+    - field.field.node.ct_carousel.field_ct_slide_title
+    - field.field.node.ct_carousel.field_ct_weight
+    - node.type.ct_carousel
+  module:
+    - image
+    - link
+    - text
+    - user
+_core:
+  default_config_hash: qOizKcl4yiiTw1gn3bEUBckjqfJt7pmUtgZ6aiAZEmM
+id: node.ct_carousel.teaser
+targetEntityType: node
+bundle: ct_carousel
+mode: teaser
+content:
+  field_ct_image:
+    type: image
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  field_ct_slide_link:
+    type: link_separate
+    weight: 2
+    label: above
+    settings:
+      trim_length: 80
+      rel: ''
+      target: ''
+      url_only: false
+      url_plain: false
+    third_party_settings: {  }
+  field_ct_slide_title:
+    type: text_default
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_ct_weight: true
+  langcode: true
+  links: true

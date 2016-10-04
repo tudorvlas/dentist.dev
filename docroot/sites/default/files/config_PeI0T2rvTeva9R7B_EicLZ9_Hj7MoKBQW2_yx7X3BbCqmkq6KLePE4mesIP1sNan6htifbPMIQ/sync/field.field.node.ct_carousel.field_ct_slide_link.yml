@@ -1,0 +1,25 @@
+uuid: 9ab3466d-bb55-4053-991b-9a619783feea
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ct_slide_link
+    - node.type.ct_carousel
+  module:
+    - link
+_core:
+  default_config_hash: 5vwiEsNFZYvqRl3SpUj29gwVsA2s2EzHcGDDPFeSXH8
+id: node.ct_carousel.field_ct_slide_link
+field_name: field_ct_slide_link
+entity_type: node
+bundle: ct_carousel
+label: 'Slide Link'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 1
+  title: 1
+field_type: link

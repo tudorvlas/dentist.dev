@@ -1,0 +1,36 @@
+uuid: 4a9d01d9-fbfb-4a07-af35-f22631bcc88b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.vm_testimonials
+    - field.field.paragraph.pt_video.field_pt_image
+    - field.field.paragraph.pt_video.field_pt_title
+    - field.field.paragraph.pt_video.field_pt_video
+    - image.style.is_large
+    - paragraphs.paragraphs_type.pt_video
+  module:
+    - f_pt_video
+id: paragraph.pt_video.vm_testimonials
+targetEntityType: paragraph
+bundle: pt_video
+mode: vm_testimonials
+content:
+  field_pt_video:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: is_large
+      link_image_to: ''
+      autoplay: '1'
+      responsive: '1'
+      width: '854'
+      height: '480'
+      modal_max_width: '854'
+    third_party_settings: {  }
+    type: ff_testimonials_video
+hidden:
+  created: true
+  field_pt_image: true
+  field_pt_title: true
+  uid: true

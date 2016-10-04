@@ -1,0 +1,8 @@
+uuid: fd7b2735-e198-49ac-9b8f-69c88520d4ab
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: V-JXW0isWb18nHRIS_X7CPulrB0raDNmKxODDqN8KLk
+id: pt_image
+label: Image

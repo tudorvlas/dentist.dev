@@ -1,0 +1,25 @@
+uuid: c4b6a82a-b422-438f-bc34-ecec1caea61e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_pt_heading
+    - paragraphs.paragraphs_type.pt_text
+  module:
+    - options
+_core:
+  default_config_hash: eGTXNfAwmmI4uUaMnMDJ27Px8J4lh1ZSmnkELnJcwBw
+id: paragraph.pt_text.field_pt_heading
+field_name: field_pt_heading
+entity_type: paragraph
+bundle: pt_text
+label: 'Heading style'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: h2
+default_value_callback: ''
+settings: {  }
+field_type: list_string

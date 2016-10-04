@@ -1,0 +1,21 @@
+uuid: a6d41944-8464-45d4-9b87-d53965b823a0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ct_subtitle
+    - node.type.ct_hp_block
+_core:
+  default_config_hash: 93jV96xoT3ZCM8yzQjZ8wnBNdN4AftSlDbyKyqdGuZ4
+id: node.ct_hp_block.field_ct_subtitle
+field_name: field_ct_subtitle
+entity_type: node
+bundle: ct_hp_block
+label: Subtitle
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,28 @@
+uuid: 6fff6050-4ae3-4de8-9f89-6c51fa367221
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.vm_testimonials
+    - field.field.paragraph.pt_image.field_pt_image
+    - field.field.paragraph.pt_image.field_pt_title
+    - paragraphs.paragraphs_type.pt_image
+  module:
+    - f_pt_image
+_core:
+  default_config_hash: pHmtA0zDX8YT-grtK3CmFi5prAIuvU7IeIlBHoZPMuU
+id: paragraph.pt_image.vm_testimonials
+targetEntityType: paragraph
+bundle: pt_image
+mode: vm_testimonials
+content:
+  field_pt_image:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: ff_testimonials_image
+hidden:
+  created: true
+  field_pt_title: true
+  uid: true

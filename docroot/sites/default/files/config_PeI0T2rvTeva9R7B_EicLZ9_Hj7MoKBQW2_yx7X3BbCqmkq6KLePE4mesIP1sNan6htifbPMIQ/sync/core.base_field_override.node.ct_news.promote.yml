@@ -1,0 +1,24 @@
+uuid: 8b8c5d12-8193-44d9-b861-e1d20f6c481a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.ct_news
+_core:
+  default_config_hash: q3TbOQjTz1at0lJPGomX2WfzCnza5uGsk3FmifghQa4
+id: node.ct_news.promote
+field_name: promote
+entity_type: node
+bundle: ct_news
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

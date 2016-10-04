@@ -1,0 +1,27 @@
+uuid: e5734af2-5a6c-4a60-878f-d3cbdf539e2e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - addidrive
+_core:
+  default_config_hash: 2eaeiGyGkMezr41UxOxFv7MJxvr9N6HtcJ7PwD1rm3s
+id: bk_main_menu
+theme: addidrive
+region: header
+weight: -7
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  follow: false
+visibility: {  }

@@ -1,0 +1,18 @@
+uuid: c09c62b5-c12f-4c92-9219-ec1abf3c33a8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.ct_news
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+_core:
+  default_config_hash: eUU_JFsi5Pdf0DMQJD5nmVs5bMWpRpP0l6uGbDPj_Yw
+id: node.ct_news
+target_entity_type_id: node
+target_bundle: ct_news
+default_langcode: site_default
+language_alterable: true

@@ -1,0 +1,25 @@
+uuid: a4aa8c2d-9a2e-46ed-909a-72a27b65f1b5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.vm_testimonials
+    - field.field.paragraph.pt_subtitle.field_pt_title
+    - paragraphs.paragraphs_type.pt_subtitle
+_core:
+  default_config_hash: nwOhpgzc30SeKeEwmlChyzw1Y7zY4VJuP33hlPhwqV8
+id: paragraph.pt_subtitle.vm_testimonials
+targetEntityType: paragraph
+bundle: pt_subtitle
+mode: vm_testimonials
+content:
+  field_pt_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+hidden:
+  created: true
+  uid: true

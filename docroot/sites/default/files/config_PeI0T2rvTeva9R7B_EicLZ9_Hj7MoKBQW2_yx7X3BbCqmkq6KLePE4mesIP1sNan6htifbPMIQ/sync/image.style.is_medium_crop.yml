@@ -1,0 +1,14 @@
+uuid: 89106410-601c-4d99-b302-d0b5ce231381
+langcode: fr
+status: true
+dependencies: {  }
+name: is_medium_crop
+label: 'AD medium crop'
+effects:
+  f0dfa1ae-640b-4af7-8ed8-475b56fb0305:
+    uuid: f0dfa1ae-640b-4af7-8ed8-475b56fb0305
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 250
+      height: 200

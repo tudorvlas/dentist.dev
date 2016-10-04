@@ -1,0 +1,29 @@
+uuid: 16ecd3e1-8448-4c8e-a7ef-34dd5bccf8ff
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ct_footer_block.field_ct_intro
+    - field.field.node.ct_footer_block.field_ct_weight
+    - node.type.ct_footer_block
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: 0uzOxiORm0JAdD1iXFCqWDUiIBBNXhJ_f8DY70eB00E
+id: node.ct_footer_block.teaser
+targetEntityType: node
+bundle: ct_footer_block
+mode: teaser
+content:
+  field_ct_intro:
+    type: text_default
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_ct_weight: true
+  langcode: true
+  links: true

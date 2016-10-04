@@ -1,0 +1,8 @@
+uuid: 3a2ac06d-90ca-4342-bac0-5efb214f5770
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: XJ_n1K0JI6O9Y7rwhnt3XydPm-z4k5k3-WqvSdz-KM8
+id: pt_video
+label: Video

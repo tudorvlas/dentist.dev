@@ -1,0 +1,21 @@
+uuid: d91b3088-ba2c-422d-bfdd-5cd512a55f46
+langcode: fr
+status: true
+dependencies:
+  config:
+    - contact.form.cf_contact
+    - field.storage.contact_message.field_cf_address
+_core:
+  default_config_hash: EcPxTkZZjn7GL_6ldw60rSe-OQ5hJF2y_yZW6Y-zDz8
+id: contact_message.cf_contact.field_cf_address
+field_name: field_cf_address
+entity_type: contact_message
+bundle: cf_contact
+label: 'Adresse :'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,38 @@
+uuid: 60c17f5c-61d6-4dcf-87ab-2b7dc119558d
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: V7jKa1uEOAzevY6B3HHPqcMVX1-q02-jLCXfH7yKBC0
+name: 'Rich text'
+format: tf_rich_text
+weight: 0
+filters:
+  filter_autop:
+    id: filter_autop
+    provider: filter
+    status: true
+    weight: 0
+    settings: {  }
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: true
+    weight: -10
+    settings:
+      allowed_html: '<a href hreflang title id target rel class=""> <em> <strong> <cite> <blockquote cite> <code> <ul type> <ol start type> <li> <dl> <dt> <dd> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <u> <sup> <sub> <img src alt data-entity-type data-entity-uuid> <table> <caption> <tbody> <thead> <tfoot> <th> <td> <tr>'
+      filter_html_help: true
+      filter_html_nofollow: false
+  filter_htmlcorrector:
+    id: filter_htmlcorrector
+    provider: filter
+    status: true
+    weight: 10
+    settings: {  }
+  filter_url:
+    id: filter_url
+    provider: filter
+    status: true
+    weight: 0
+    settings:
+      filter_url_length: 72

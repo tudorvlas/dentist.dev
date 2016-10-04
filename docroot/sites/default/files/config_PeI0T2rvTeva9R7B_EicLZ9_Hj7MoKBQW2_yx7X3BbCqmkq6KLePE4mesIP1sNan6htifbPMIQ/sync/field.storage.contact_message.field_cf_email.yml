@@ -1,0 +1,20 @@
+uuid: 3ccbb9e1-7566-40f9-be85-897ff125a893
+langcode: fr
+status: true
+dependencies:
+  module:
+    - contact
+_core:
+  default_config_hash: zurIW45AXu9r9Bio54OqvJ4KKy7Th1ni-kh3FRnDAA8
+id: contact_message.field_cf_email
+field_name: field_cf_email
+entity_type: contact_message
+type: email
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

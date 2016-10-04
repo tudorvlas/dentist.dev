@@ -1,0 +1,69 @@
+commands:
+# Install modules
+  - command: module:install
+    arguments:
+      module:
+        # Core
+        - action
+        - ckeditor
+        - config_translation
+        - contact
+        - content_translation
+        - contextual
+        - field_group
+        - field_ui
+        - image
+        - link
+        - menu_link_content
+        - menu_ui
+        - options
+        - path
+        - quickedit
+        - taxonomy
+        - telephone
+        - toolbar
+        - views
+        - views_ui
+        # Contrib
+        - admin_toolbar
+        - allowed_formats
+        - colorbox
+        - config_update
+        - contact_storage
+        - ctools
+        - editor_advanced_link
+        - ds
+        - entity_reference_revisions
+        - eu_cookie_compliance
+        - features
+        - features_ui
+        - field_group
+        - google_analytics
+        - honeypot
+        - hreflang
+        - imce
+        - layout_plugin
+        - metatag
+        - paragraphs
+        - pathauto
+        - roleassign
+        - simple_sitemap
+        - sitemap
+        - token
+        - video_embed_field
+        - views_slideshow
+        - views_slideshow_cycle
+        - weight
+# Install themes
+  - command: theme:install
+    arguments:
+      theme:
+        # Admin theme
+        - addidrive
+        - seven
+# Install custom modules
+
+# Rebuild caches
+  - command: cache:rebuild
+    arguments:
+        cache: all

@@ -1,0 +1,52 @@
+uuid: b334eaf4-b8d9-47fb-bada-3fd6f99480b0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ct_components
+    - node.type.ct_testimonial
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: icYMwqQo6JvtQkvlUS75AxP3t0UWdmKy-yv844ThEmA
+id: node.ct_testimonial.field_ct_components
+field_name: field_ct_components
+entity_type: node
+bundle: ct_testimonial
+label: Components
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      pt_subtitle: pt_subtitle
+      pt_document: pt_document
+      pt_image: pt_image
+      pt_video: pt_video
+    target_bundles_drag_drop:
+      pt_subtitle:
+        enabled: true
+        weight: 7
+      pt_document:
+        enabled: true
+        weight: 8
+      pt_frame:
+        weight: 9
+        enabled: false
+      pt_quote:
+        weight: 10
+        enabled: false
+      pt_image:
+        enabled: true
+        weight: 10
+      pt_text:
+        weight: 11
+        enabled: false
+      pt_video:
+        enabled: true
+        weight: 12
+field_type: entity_reference_revisions

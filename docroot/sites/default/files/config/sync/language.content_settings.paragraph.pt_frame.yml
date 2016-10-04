@@ -1,0 +1,18 @@
+uuid: dd7044d4-42cd-488a-a2c0-b0a8faee2dc9
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.pt_frame
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+_core:
+  default_config_hash: aqU9yxT-dbl2X4kd1WiuiSJ6H9y6UW9UC-zH6i06H7o
+id: paragraph.pt_frame
+target_entity_type_id: paragraph
+target_bundle: pt_frame
+default_langcode: site_default
+language_alterable: true

@@ -1,0 +1,21 @@
+uuid: 846d18e8-8ca4-4677-bb57-4753434ec81c
+langcode: fr
+status: true
+dependencies:
+  module:
+    - contact
+id: contact_message.field_cf_state
+field_name: field_cf_state
+entity_type: contact_message
+type: string
+settings:
+  max_length: 50
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

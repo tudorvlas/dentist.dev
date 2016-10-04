@@ -1,0 +1,15 @@
+uuid: a20ef964-158f-4317-bdd5-0c038140a243
+langcode: fr
+status: true
+dependencies: {  }
+name: is_large
+label: 'AD Large'
+effects:
+  aa474f03-7a7b-493d-8ea5-b10e4e3ffd71:
+    uuid: aa474f03-7a7b-493d-8ea5-b10e4e3ffd71
+    id: image_scale
+    weight: 2
+    data:
+      width: 800
+      height: null
+      upscale: false

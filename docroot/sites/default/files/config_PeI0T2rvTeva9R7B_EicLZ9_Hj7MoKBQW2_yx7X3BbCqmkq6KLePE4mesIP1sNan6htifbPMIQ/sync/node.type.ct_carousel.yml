@@ -1,0 +1,13 @@
+uuid: 20d8fc25-2cad-4478-92ee-8bc16deeb34e
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: aBpaPbVgIo59HjUIAi2e9LPF8z8ZBqWOSh6VK-HKMOs
+name: 'Homepage Carousel'
+type: ct_carousel
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,24 @@
+uuid: b10bf61f-98cf-463d-9ecb-6dfa48e45255
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.ct_carousel
+_core:
+  default_config_hash: DbK1Rm8DQ-4Mm0QCYByN7PuJVHRQ5EAxwWndLi6OgaA
+id: node.ct_carousel.promote
+field_name: promote
+entity_type: node
+bundle: ct_carousel
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

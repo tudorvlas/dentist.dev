@@ -1,0 +1,21 @@
+uuid: ad6e4a4e-d3c7-4424-ab2c-16c0b6d08c48
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: 9cgvbSU7c_2vmLexpGLsqc4qCDHroDGqBMk5lg02hT8
+id: node.field_ct_slide_title
+field_name: field_ct_slide_title
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

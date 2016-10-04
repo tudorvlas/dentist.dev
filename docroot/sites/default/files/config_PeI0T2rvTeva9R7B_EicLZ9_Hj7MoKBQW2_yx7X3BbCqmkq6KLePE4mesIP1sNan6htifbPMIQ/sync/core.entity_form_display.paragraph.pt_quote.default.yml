@@ -1,0 +1,26 @@
+uuid: 10216943-a4d7-4efe-934c-7215bcf0ad93
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pt_quote.field_pt_text
+    - paragraphs.paragraphs_type.pt_quote
+_core:
+  default_config_hash: 2aNCLywGCSodUxdpmSGxDXquyeHg_a8_NxwXmF2CCfc
+id: paragraph.pt_quote.default
+targetEntityType: paragraph
+bundle: pt_quote
+mode: default
+content:
+  field_pt_text:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+  translation:
+    weight: 10
+hidden:
+  created: true
+  uid: true

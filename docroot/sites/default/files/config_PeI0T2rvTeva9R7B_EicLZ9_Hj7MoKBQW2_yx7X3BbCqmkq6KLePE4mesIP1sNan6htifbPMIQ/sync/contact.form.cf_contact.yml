@@ -1,0 +1,19 @@
+uuid: cb6ee380-7206-424e-804a-9bac20354a74
+langcode: fr
+status: true
+dependencies:
+  module:
+    - contact_storage
+third_party_settings:
+  contact_storage:
+    redirect_uri: ''
+    submit_text: Envoyer
+    show_preview: false
+_core:
+  default_config_hash: 67FNhCyCHJT7YWvUk9quUVXqgQej7P2GyH433MnWGgg
+id: cf_contact
+label: Contact
+recipients:
+  - contact-powertrain@poclain.com
+reply: ''
+weight: 0

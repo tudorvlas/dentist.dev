@@ -1,0 +1,11 @@
+uuid: 72cbd252-1048-4eb8-8197-fc3bebf0485b
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: pbpHtJAIOEfPFw9e1DgSRC9ufACeeI8HqcvSYN27xKw
+name: 'Target profile'
+vid: vb_target_profile
+description: ''
+hierarchy: 0
+weight: 0

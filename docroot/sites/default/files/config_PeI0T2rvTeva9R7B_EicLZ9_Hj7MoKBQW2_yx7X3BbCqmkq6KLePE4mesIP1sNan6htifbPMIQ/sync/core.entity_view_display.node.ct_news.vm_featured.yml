@@ -1,0 +1,55 @@
+uuid: 52012564-ae28-4399-aee7-740d53cc56de
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.vm_featured
+    - field.field.node.ct_news.field_ct_abstract
+    - field.field.node.ct_news.field_ct_document
+    - field.field.node.ct_news.field_ct_h_image
+    - field.field.node.ct_news.field_ct_h_title
+    - field.field.node.ct_news.field_ct_image
+    - field.field.node.ct_news.field_ct_intro
+    - field.field.node.ct_news.field_ct_meta_tags
+    - field.field.node.ct_news.field_ct_news_category
+    - field.field.node.ct_news.field_ct_p_image
+    - field.field.node.ct_news.field_ct_target_profile
+    - field.field.node.ct_news.field_ct_text
+    - node.type.ct_news
+  module:
+    - image
+    - user
+_core:
+  default_config_hash: hc8c9bwfmq0I3EBgSRljZheg1zuSKAZQOJlKRRg6CsE
+id: node.ct_news.vm_featured
+targetEntityType: node
+bundle: ct_news
+mode: vm_featured
+content:
+  field_ct_h_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_ct_h_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+hidden:
+  field_ct_abstract: true
+  field_ct_document: true
+  field_ct_image: true
+  field_ct_intro: true
+  field_ct_meta_tags: true
+  field_ct_news_category: true
+  field_ct_p_image: true
+  field_ct_target_profile: true
+  field_ct_text: true
+  langcode: true
+  links: true

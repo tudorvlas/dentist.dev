@@ -1,0 +1,18 @@
+uuid: 8c9846b6-d174-42e7-8726-a463effc4f00
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.ct_page
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+_core:
+  default_config_hash: aXuIX__LqNTXHuUJHz2_JZv6JmnnIszinpkgYitTaVE
+id: node.ct_page
+target_entity_type_id: node
+target_bundle: ct_page
+default_langcode: site_default
+language_alterable: true

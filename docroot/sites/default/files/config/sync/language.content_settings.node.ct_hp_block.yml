@@ -1,0 +1,18 @@
+uuid: c9393934-54ac-4bde-8dd1-803890fe3800
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.ct_hp_block
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+_core:
+  default_config_hash: qf4kEWZm0mQRRPbqASpkmcSN8lJP1_IapqQB5AoOmH4
+id: node.ct_hp_block
+target_entity_type_id: node
+target_bundle: ct_hp_block
+default_langcode: site_default
+language_alterable: true

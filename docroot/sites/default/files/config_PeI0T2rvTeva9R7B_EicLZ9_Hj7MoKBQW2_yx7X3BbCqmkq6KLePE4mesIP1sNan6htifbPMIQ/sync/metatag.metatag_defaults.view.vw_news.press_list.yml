@@ -1,0 +1,9 @@
+uuid: 2790cfe1-2ba9-41c0-8bb2-3e542c149d99
+langcode: fr
+status: true
+dependencies: {  }
+id: view.vw_news.press_list
+label: 'Press List'
+tags:
+  title: ''
+  description: ''

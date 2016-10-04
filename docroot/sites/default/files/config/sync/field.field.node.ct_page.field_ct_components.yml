@@ -1,0 +1,53 @@
+uuid: dee1f5f9-ebec-4a69-a1c8-198d2507107c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ct_components
+    - node.type.ct_page
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: '-kf-rFtgi6eCXuiipyX6CVAmVdzNVAwKJToQgnOepYo'
+id: node.ct_page.field_ct_components
+field_name: field_ct_components
+entity_type: node
+bundle: ct_page
+label: Components
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      pt_text: pt_text
+      pt_document: pt_document
+      pt_link: pt_link
+      pt_quote: pt_quote
+      pt_video: pt_video
+    target_bundles_drag_drop:
+      pt_text:
+        enabled: true
+        weight: 2
+      pt_document:
+        enabled: true
+        weight: 8
+      pt_image:
+        weight: 10
+        enabled: false
+      pt_link:
+        enabled: true
+        weight: 10
+      pt_quote:
+        enabled: true
+        weight: 11
+      pt_subtitle:
+        weight: 12
+        enabled: false
+      pt_video:
+        enabled: true
+        weight: 14
+field_type: entity_reference_revisions

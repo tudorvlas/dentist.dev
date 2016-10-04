@@ -1,0 +1,88 @@
+uuid: 425a6124-a1f9-4079-8162-014439a6f8e8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.ct_hp_block.field_ct_image
+    - field.field.node.ct_hp_block.field_ct_link
+    - field.field.node.ct_hp_block.field_ct_subtitle
+    - node.type.ct_hp_block
+  module:
+    - ds
+    - image
+    - link
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      path: modules/contrib/ds
+      library: ''
+      disable_css: false
+      settings:
+        wrappers:
+          ds_content: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      ds_content:
+        - node_title
+        - field_ct_subtitle
+        - field_ct_image
+        - field_ct_link
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 0
+        label: hidden
+        formatter: default
+_core:
+  default_config_hash: vcknIwvRdwYJhTTCcMaT2D_s_uSCikB-KVBkzD5BCDM
+id: node.ct_hp_block.default
+targetEntityType: node
+bundle: ct_hp_block
+mode: default
+content:
+  field_ct_image:
+    weight: 2
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_ct_link:
+    weight: 3
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+  field_ct_subtitle:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  langcode:
+    type: language
+    weight: 12
+    label: above
+    settings:
+      link_to_entity: false
+      native_language: false
+    third_party_settings: {  }
+  links:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

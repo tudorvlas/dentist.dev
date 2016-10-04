@@ -1,0 +1,13 @@
+uuid: 272b56f9-f39b-44cb-a081-d9cfb1502a9b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - contact.form.cf_contact
+_core:
+  default_config_hash: WfrlSWBNjHUU9DzerFnUf8aqqpsCJRoPz7MTPMttdx4
+id: contact_message.cf_contact
+target_entity_type_id: contact_message
+target_bundle: cf_contact
+default_langcode: site_default
+language_alterable: false

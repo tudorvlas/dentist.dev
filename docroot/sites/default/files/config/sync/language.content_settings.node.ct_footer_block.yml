@@ -1,0 +1,18 @@
+uuid: a224b1a7-3d49-46a4-acdb-de018412c5fb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.ct_footer_block
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+_core:
+  default_config_hash: gwcNXBijE0sEQhwu_nsxjciAEQiAFq2ydoETOOAICaY
+id: node.ct_footer_block
+target_entity_type_id: node
+target_bundle: ct_footer_block
+default_langcode: site_default
+language_alterable: true

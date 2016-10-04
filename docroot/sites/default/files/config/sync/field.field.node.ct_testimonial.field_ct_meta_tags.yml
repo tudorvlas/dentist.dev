@@ -1,0 +1,23 @@
+uuid: e6f92f74-d346-4259-ad5e-fe4874fd3f2d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ct_meta_tags
+    - node.type.ct_testimonial
+  module:
+    - metatag
+id: node.ct_testimonial.field_ct_meta_tags
+field_name: field_ct_meta_tags
+entity_type: node
+bundle: ct_testimonial
+label: 'Meta tags'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 'a:1:{s:5:"title";s:34:"[current-page:title] | [site:name]";}'
+default_value_callback: ''
+settings: {  }
+field_type: metatag

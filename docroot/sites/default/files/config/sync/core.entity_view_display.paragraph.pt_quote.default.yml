@@ -1,0 +1,23 @@
+uuid: ef80f3ea-bb24-4eaa-a560-11277c3f12a1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pt_quote.field_pt_text
+    - paragraphs.paragraphs_type.pt_quote
+_core:
+  default_config_hash: Qfl4MBPVNJSeyopVTdFCuY21YijFR7liVjpkaNzOzHo
+id: paragraph.pt_quote.default
+targetEntityType: paragraph
+bundle: pt_quote
+mode: default
+content:
+  field_pt_text:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+hidden:
+  created: true
+  uid: true

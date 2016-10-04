@@ -1,0 +1,29 @@
+uuid: 2b0aab88-a86f-47d6-b034-d574162395ca
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ct_abstract
+    - node.type.ct_news
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    tf_rich_text: tf_rich_text
+    tf_slide_title: '0'
+    plain_text: '0'
+_core:
+  default_config_hash: _0t157epV4tv9ObP3-fIU7u6djF43MLg-ZnmJ_E-7Q4
+id: node.ct_news.field_ct_abstract
+field_name: field_ct_abstract
+entity_type: node
+bundle: ct_news
+label: Abstract
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

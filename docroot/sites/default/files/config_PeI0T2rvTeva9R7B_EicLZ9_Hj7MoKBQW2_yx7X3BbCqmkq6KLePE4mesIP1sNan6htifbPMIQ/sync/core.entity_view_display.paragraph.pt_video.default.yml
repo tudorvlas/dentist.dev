@@ -1,0 +1,37 @@
+uuid: 541272d9-ad90-4da4-9658-9e7ee818e852
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pt_video.field_pt_image
+    - field.field.paragraph.pt_video.field_pt_title
+    - field.field.paragraph.pt_video.field_pt_video
+    - image.style.is_homepage
+    - paragraphs.paragraphs_type.pt_video
+  module:
+    - f_ct_homepage_video
+_core:
+  default_config_hash: geQ5tVdh2W5L07BFc7i1DXxNMZFlhCrbNNEcGK1v7SE
+id: paragraph.pt_video.default
+targetEntityType: paragraph
+bundle: pt_video
+mode: default
+content:
+  field_pt_video:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: is_homepage
+      link_image_to: ''
+      autoplay: '1'
+      responsive: '1'
+      width: '854'
+      height: '480'
+      modal_max_width: '854'
+    third_party_settings: {  }
+    type: formatter_homepage_video
+hidden:
+  created: true
+  field_pt_image: true
+  field_pt_title: true
+  uid: true

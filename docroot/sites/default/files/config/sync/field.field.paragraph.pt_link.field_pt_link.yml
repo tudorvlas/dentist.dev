@@ -1,0 +1,25 @@
+uuid: 98e50c00-b3a0-4bde-a5d7-0976ee388c1a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_pt_link
+    - paragraphs.paragraphs_type.pt_link
+  module:
+    - link
+_core:
+  default_config_hash: zkeO7mjM9P2c-3QQ3OFrGLVZMjqKfnPisw7DpPo_BOE
+id: paragraph.pt_link.field_pt_link
+field_name: field_pt_link
+entity_type: paragraph
+bundle: pt_link
+label: Link
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

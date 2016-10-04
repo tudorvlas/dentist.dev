@@ -1,0 +1,18 @@
+uuid: d1ea1825-b627-4869-b62e-a12262e93979
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.ct_carousel
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+_core:
+  default_config_hash: vNjmCnohHMZEqakSFGI7ymGDFbwDnrLeZYyhE5cJsy0
+id: node.ct_carousel
+target_entity_type_id: node
+target_bundle: ct_carousel
+default_langcode: site_default
+language_alterable: true

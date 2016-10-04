@@ -1,0 +1,46 @@
+uuid: da0f4ee8-b791-4666-94db-3c4259656b14
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.ct_video.field_ct_image
+    - field.field.node.ct_video.field_ct_video
+    - node.type.ct_video
+  module:
+    - image
+    - user
+    - video_embed_field
+_core:
+  default_config_hash: oJ10PZTREwpQnhoYsaYQXDD-rxqZsCvre_Ljp56MdGg
+id: node.ct_video.default
+targetEntityType: node
+bundle: ct_video
+mode: default
+content:
+  field_ct_image:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_ct_video:
+    weight: 101
+    label: above
+    settings:
+      image_style: ''
+      link_image_to: ''
+      autoplay: true
+      responsive: true
+      width: '854'
+      height: '480'
+      modal_max_width: 854
+    third_party_settings: {  }
+    type: video_embed_field_colorbox
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

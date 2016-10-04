@@ -1,0 +1,20 @@
+uuid: 3bfceb6e-d8de-4252-afb3-e10da00336cc
+langcode: fr
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - addidrive
+id: addidrive_messages
+theme: addidrive
+region: '-1'
+weight: -2
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Messages de statut'
+  provider: system
+  label_display: '0'
+visibility: {  }

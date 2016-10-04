@@ -1,0 +1,23 @@
+uuid: 0841eb4a-cc35-49de-9ddb-99c99dc2f586
+langcode: fr
+status: true
+dependencies:
+  config:
+    - contact.form.cf_contact
+    - field.storage.contact_message.field_cf_phone
+  module:
+    - telephone
+_core:
+  default_config_hash: LSgKE8R_apo1tES_QVeJ6Ri2MH7-IU4iFkVKur95OPs
+id: contact_message.cf_contact.field_cf_phone
+field_name: field_cf_phone
+entity_type: contact_message
+bundle: cf_contact
+label: 'Téléphone :'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

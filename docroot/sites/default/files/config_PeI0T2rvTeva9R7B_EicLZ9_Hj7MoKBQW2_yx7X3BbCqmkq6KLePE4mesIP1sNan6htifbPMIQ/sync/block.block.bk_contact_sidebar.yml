@@ -1,0 +1,26 @@
+uuid: 32a6ed59-8223-451f-8f0f-1e5e767a43a8
+langcode: fr
+status: true
+dependencies:
+  module:
+    - f_cf_contact
+    - system
+  theme:
+    - addidrive
+id: bk_contact_sidebar
+theme: addidrive
+region: sidebar_first
+weight: -6
+provider: null
+plugin: bk_contact_sidebar
+settings:
+  id: bk_contact_sidebar
+  label: 'Contact Sidebar'
+  provider: f_cf_contact
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact
+    negate: false
+    context_mapping: {  }

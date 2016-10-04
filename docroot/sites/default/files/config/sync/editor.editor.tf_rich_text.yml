@@ -1,0 +1,54 @@
+uuid: 5a9e4b99-9ad4-47c4-a9e5-041568de3e66
+langcode: fr
+status: true
+dependencies:
+  config:
+    - filter.format.tf_rich_text
+  module:
+    - ckeditor
+_core:
+  default_config_hash: 6bOJ55Y2m_mxD8zdZtnQpNQN6XOv-9Es5PnnwgYnrN8
+format: tf_rich_text
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formats
+          items:
+            - Bold
+            - Italic
+            - Underline
+            - Superscript
+            - Subscript
+            - Blockquote
+        -
+          name: Liens
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Listes
+          items:
+            - BulletedList
+            - NumberedList
+        -
+          name: Média
+          items:
+            - Table
+        -
+          name: Tools
+          items:
+            - Source
+  plugins:
+    stylescombo:
+      styles: ''
+image_upload:
+  status: false
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

@@ -1,0 +1,18 @@
+uuid: d3a6d4c6-143a-48eb-b230-9f36211075e1
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: bPQ4WfcqioOziDc_gZq2bdbTpgypP4zVQe4yrxWhRpc
+id: anonymous
+label: Visitor
+weight: -10
+is_admin: false
+permissions:
+  - 'access content'
+  - 'edit own comments'
+  - 'post comments'
+  - 'access comments'
+  - 'access site-wide contact form'
+  - 'access sitemap'
+  - 'display EU Cookie Compliance popup'

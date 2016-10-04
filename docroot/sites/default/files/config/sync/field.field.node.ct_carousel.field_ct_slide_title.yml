@@ -1,0 +1,29 @@
+uuid: 9d2a4914-5983-4d56-b5d8-5dfa516401cb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ct_slide_title
+    - node.type.ct_carousel
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    tf_slide_title: tf_slide_title
+    tf_rich_text: '0'
+    plain_text: '0'
+_core:
+  default_config_hash: u3NlU7xMakp6uXzCJoDytMXgmnzbLPQFf207ZuD3SPk
+id: node.ct_carousel.field_ct_slide_title
+field_name: field_ct_slide_title
+entity_type: node
+bundle: ct_carousel
+label: 'Slide Title'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

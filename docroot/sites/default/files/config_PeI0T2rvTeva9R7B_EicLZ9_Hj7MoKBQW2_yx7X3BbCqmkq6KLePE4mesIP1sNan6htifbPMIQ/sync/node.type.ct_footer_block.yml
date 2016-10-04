@@ -1,0 +1,13 @@
+uuid: 1d4dc503-0412-4628-95cc-9cd52e988055
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: BJKuFZmXhhzwxC_xpY6OIy8LMLpv4sJ87AzX2bTUgdY
+name: 'Footer block'
+type: ct_footer_block
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

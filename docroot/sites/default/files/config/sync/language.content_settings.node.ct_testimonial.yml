@@ -1,0 +1,18 @@
+uuid: 96c33d07-b7a6-4fc0-93f9-14013322b722
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.ct_testimonial
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+_core:
+  default_config_hash: LfxzZtDjPSlcoEfFELSfpotoYnSh-myhZFqrp6wf2TI
+id: node.ct_testimonial
+target_entity_type_id: node
+target_bundle: ct_testimonial
+default_langcode: site_default
+language_alterable: true

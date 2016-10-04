@@ -1,0 +1,19 @@
+uuid: 00b1d4ea-907c-45e8-a2fc-cc788279525c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - contact.form.cf_contact
+    - field.storage.contact_message.field_cf_state
+id: contact_message.cf_contact.field_cf_state
+field_name: field_cf_state
+entity_type: contact_message
+bundle: cf_contact
+label: 'Etat / région :'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

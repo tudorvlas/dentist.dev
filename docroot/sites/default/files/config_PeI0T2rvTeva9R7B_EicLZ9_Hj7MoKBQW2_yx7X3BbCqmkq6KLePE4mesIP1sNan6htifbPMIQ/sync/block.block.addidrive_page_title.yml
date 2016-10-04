@@ -1,0 +1,25 @@
+uuid: ab1e187b-d18d-43b8-a235-069b8b475f14
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - addidrive
+id: addidrive_page_title
+theme: addidrive
+region: content
+weight: -3
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Titre de page'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

@@ -1,0 +1,22 @@
+uuid: a14a0af2-4a66-4ee3-9c1d-f1b048609979
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - stark
+_core:
+  default_config_hash: EiqtGyf5QjzTkom7Se9RDw9RAp9la0EhzjXk3pU2UzM
+id: stark_local_tasks
+theme: stark
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Onglets
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

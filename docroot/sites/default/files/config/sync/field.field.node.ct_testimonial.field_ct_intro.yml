@@ -1,0 +1,29 @@
+uuid: cc27210c-a1c6-4c96-9971-9cc661b72c59
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ct_intro
+    - node.type.ct_testimonial
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    tf_rich_text: tf_rich_text
+    tf_slide_title: '0'
+    plain_text: '0'
+_core:
+  default_config_hash: hL7LwdFtjqiU65Egdq5jHzyXq7LdANZaeeUwmNqQccQ
+id: node.ct_testimonial.field_ct_intro
+field_name: field_ct_intro
+entity_type: node
+bundle: ct_testimonial
+label: 'Introduction Text'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

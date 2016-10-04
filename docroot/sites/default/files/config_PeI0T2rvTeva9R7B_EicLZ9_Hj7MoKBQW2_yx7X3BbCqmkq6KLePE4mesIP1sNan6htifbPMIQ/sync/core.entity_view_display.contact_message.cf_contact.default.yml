@@ -1,0 +1,128 @@
+uuid: 73cd0cfe-7efa-474d-b49f-3b8182cc39a2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - contact.form.cf_contact
+    - field.field.contact_message.cf_contact.field_cf_address
+    - field.field.contact_message.cf_contact.field_cf_city
+    - field.field.contact_message.cf_contact.field_cf_company
+    - field.field.contact_message.cf_contact.field_cf_country
+    - field.field.contact_message.cf_contact.field_cf_email
+    - field.field.contact_message.cf_contact.field_cf_first_name
+    - field.field.contact_message.cf_contact.field_cf_last_name
+    - field.field.contact_message.cf_contact.field_cf_magazine
+    - field.field.contact_message.cf_contact.field_cf_phone
+    - field.field.contact_message.cf_contact.field_cf_profile
+    - field.field.contact_message.cf_contact.field_cf_state
+    - field.field.contact_message.cf_contact.field_cf_subscribe
+    - field.field.contact_message.cf_contact.field_cf_zipcode
+  module:
+    - options
+_core:
+  default_config_hash: d8cPSD3udnHAjHrSIuEnhpgHtniShEVGZeeiSvRWzVk
+id: contact_message.cf_contact.default
+targetEntityType: contact_message
+bundle: cf_contact
+mode: default
+content:
+  field_cf_address:
+    weight: 6
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_cf_city:
+    weight: 8
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_cf_company:
+    weight: 4
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_cf_country:
+    weight: 9
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+  field_cf_email:
+    weight: 3
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  field_cf_first_name:
+    weight: 1
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_cf_last_name:
+    weight: 2
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_cf_magazine:
+    weight: 13
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_cf_phone:
+    weight: 5
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_cf_profile:
+    weight: 0
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+  field_cf_state:
+    weight: 10
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_cf_subscribe:
+    weight: 12
+    label: inline
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+  field_cf_zipcode:
+    weight: 7
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  message:
+    type: basic_string
+    weight: 11
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  mail: true
+  name: true
+  subject: true

@@ -1,0 +1,20 @@
+uuid: a0be7e94-fd19-4298-a209-1f4e251f443b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.pt_document
+_core:
+  default_config_hash: 5jQKq3Av3jkv1TIwziO7bnMPUB6JkEOkH3vxzPUVOtQ
+id: paragraph.pt_document.changed
+field_name: changed
+entity_type: paragraph
+bundle: pt_document
+label: Modifié
+description: 'The time that the Paragraph was last edited.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

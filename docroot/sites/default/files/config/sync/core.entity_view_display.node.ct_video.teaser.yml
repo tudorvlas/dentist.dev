@@ -1,0 +1,49 @@
+uuid: ad5b8872-4e2a-4b6f-8946-1e62c7c82b42
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ct_video.field_ct_image
+    - field.field.node.ct_video.field_ct_video
+    - node.type.ct_video
+  module:
+    - ds
+    - f_ct_homepage_video
+    - user
+third_party_settings:
+  ds:
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 0
+        label: hidden
+        formatter: default
+        settings:
+          wrapper: h2
+          class: ''
+          link: false
+_core:
+  default_config_hash: rA-YEKq8KNMUQ97kAARFHlILuApm_ro8e9Lp917pZfg
+id: node.ct_video.teaser
+targetEntityType: node
+bundle: ct_video
+mode: teaser
+content:
+  field_ct_video:
+    type: formatter_homepage_video
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      link_image_to: ''
+      responsive: true
+      width: '854'
+      height: '480'
+      autoplay: true
+      modal_max_width: 854
+    third_party_settings: {  }
+hidden:
+  field_ct_image: true
+  langcode: true
+  links: true

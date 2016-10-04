@@ -1,0 +1,26 @@
+uuid: e535fe94-534f-423d-a8c4-479ac5f03690
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ct_weight
+    - node.type.ct_footer_block
+  module:
+    - weight
+_core:
+  default_config_hash: 7Bh43ijKzPXE-zorCV3F0kTcgRraa6lRB-GCwbISO5I
+id: node.ct_footer_block.field_ct_weight
+field_name: field_ct_weight
+entity_type: node
+bundle: ct_footer_block
+label: Weight
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: '0'
+default_value_callback: ''
+settings:
+  range: '20'
+field_type: weight

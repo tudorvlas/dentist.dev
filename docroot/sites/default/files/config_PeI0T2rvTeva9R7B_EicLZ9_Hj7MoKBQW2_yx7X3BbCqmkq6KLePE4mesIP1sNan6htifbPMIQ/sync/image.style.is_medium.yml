@@ -1,0 +1,15 @@
+uuid: 6a6b46d0-ad9f-4569-97e2-bb2d20fef75d
+langcode: fr
+status: true
+dependencies: {  }
+name: is_medium
+label: 'AD medium'
+effects:
+  4d6c2112-9f8d-48b8-ad0b-fcf594758c7f:
+    uuid: 4d6c2112-9f8d-48b8-ad0b-fcf594758c7f
+    id: image_scale
+    weight: 2
+    data:
+      width: 355
+      height: null
+      upscale: false

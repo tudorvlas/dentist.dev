@@ -1,0 +1,8 @@
+uuid: ba4664b7-4530-4a35-b6a5-7baa80c3def0
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: LGwsrTbqAqflqSlYI8umpUafUBWan761zoXpJItxRfY
+id: pt_subtitle
+label: Subtitle

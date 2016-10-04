@@ -1,0 +1,8 @@
+default_form: cf_contact
+flood:
+  limit: 5
+  interval: 3600
+user_default_enabled: true
+langcode: fr
+_core:
+  default_config_hash: D6OI_RCMi20XQHBAUrlYvcVeWqDP7W9IocP2D05QNcY

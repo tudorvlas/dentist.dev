@@ -1,0 +1,8 @@
+uuid: 7df23958-5dc6-471e-8e72-152f29047352
+langcode: fr
+status: true
+dependencies: {  }
+id: df_date_medium
+label: 'AD Date Medium'
+locked: false
+pattern: 'd F Y'

@@ -1,0 +1,32 @@
+uuid: 8367f1cd-e2c0-4b90-80a3-2d7e22584a83
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.vw_homepage_video
+  module:
+    - system
+    - views
+  theme:
+    - addidrive
+_core:
+  default_config_hash: e1v0Btg7Z1FEZX8PY16cszQpZHKwbdAhYNlv4IkPQh4
+id: views_block__vw_homepage_video_block_1
+theme: addidrive
+region: content
+weight: -3
+provider: null
+plugin: 'views_block:vw_homepage_video-block_1'
+settings:
+  id: 'views_block:vw_homepage_video-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

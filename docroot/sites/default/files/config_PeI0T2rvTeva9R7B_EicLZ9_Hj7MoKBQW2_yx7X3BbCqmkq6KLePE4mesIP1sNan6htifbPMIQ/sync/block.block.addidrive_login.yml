@@ -1,0 +1,20 @@
+uuid: ebb0ea2a-5c07-4cb2-95fc-3f8fdeb1de3a
+langcode: fr
+status: false
+dependencies:
+  module:
+    - user
+  theme:
+    - addidrive
+id: addidrive_login
+theme: addidrive
+region: '-1'
+weight: -3
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'Connexion utilisateur'
+  provider: user
+  label_display: visible
+visibility: {  }

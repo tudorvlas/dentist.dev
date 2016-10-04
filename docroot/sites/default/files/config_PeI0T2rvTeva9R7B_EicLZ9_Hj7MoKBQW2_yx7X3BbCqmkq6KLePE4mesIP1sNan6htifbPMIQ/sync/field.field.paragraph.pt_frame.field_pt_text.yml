@@ -1,0 +1,23 @@
+uuid: 394c28de-c29b-4838-a628-ac4cf24ef6d8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_pt_text
+    - paragraphs.paragraphs_type.pt_frame
+  module:
+    - text
+_core:
+  default_config_hash: LS-dG08sKhL0H1KXlBe2WzyqKFOsImYLdc4gtJ-IL_o
+id: paragraph.pt_frame.field_pt_text
+field_name: field_pt_text
+entity_type: paragraph
+bundle: pt_frame
+label: Text
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

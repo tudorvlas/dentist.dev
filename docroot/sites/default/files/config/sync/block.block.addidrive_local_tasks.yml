@@ -1,0 +1,20 @@
+uuid: 291a7370-310e-4cc3-8cc8-eeff884f58e3
+langcode: fr
+status: false
+dependencies:
+  theme:
+    - addidrive
+id: addidrive_local_tasks
+theme: addidrive
+region: '-1'
+weight: -8
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

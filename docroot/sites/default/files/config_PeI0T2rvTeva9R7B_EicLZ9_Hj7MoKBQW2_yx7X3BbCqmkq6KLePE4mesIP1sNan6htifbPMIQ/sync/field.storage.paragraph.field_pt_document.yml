@@ -1,0 +1,25 @@
+uuid: c1161cc2-7209-4396-9369-16bb7beeb993
+langcode: fr
+status: true
+dependencies:
+  module:
+    - file
+    - paragraphs
+_core:
+  default_config_hash: UJYPp-4j_G5xlS1xi5BiHYPzMe85dLmw-ksmlW_fXI4
+id: paragraph.field_pt_document
+field_name: field_pt_document
+entity_type: paragraph
+type: file
+settings:
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  target_type: file
+module: file
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,14 @@
+uuid: 1d52524d-719f-4b10-b3a0-a427076e70a8
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Website feedback'
+recipients:
+  - dentist@dentist.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

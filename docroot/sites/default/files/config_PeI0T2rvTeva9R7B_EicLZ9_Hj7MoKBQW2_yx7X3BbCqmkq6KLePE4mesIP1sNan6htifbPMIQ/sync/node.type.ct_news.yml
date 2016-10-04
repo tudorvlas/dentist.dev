@@ -1,0 +1,20 @@
+uuid: ece22c89-6afa-41cf-b2c3-ec47f28761fd
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: aystwYwzoX0DqOtPpv2zmjne8vubNOy9qXaPbOmZSKA
+name: News
+type: ct_news
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,22 @@
+uuid: bb8f0c7b-b250-4338-b84f-db51e57762eb
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - weight
+_core:
+  default_config_hash: EsxTiXdNbTaUO1HHWxpywVekOwTGDfKc1j7YMbCmS3Y
+id: node.field_ct_weight
+field_name: field_ct_weight
+entity_type: node
+type: weight
+settings:
+  unsigned: false
+module: weight
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,64 @@
+uuid: a1c56ed9-09eb-4f86-992c-52dbc6a52d24
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.ct_testimonial.field_ct_components
+    - field.field.node.ct_testimonial.field_ct_h_title
+    - field.field.node.ct_testimonial.field_ct_image
+    - field.field.node.ct_testimonial.field_ct_intro
+    - field.field.node.ct_testimonial.field_ct_meta_tags
+    - field.field.node.ct_testimonial.field_ct_p_image
+    - field.field.node.ct_testimonial.field_ct_target_profile
+    - image.style.is_medium
+    - node.type.ct_testimonial
+  module:
+    - ds
+    - entity_reference_revisions
+    - image
+    - text
+    - user
+_core:
+  default_config_hash: Z0v1GQT6evYBTf_bIoc5EHWf306UGRaTyGxDRJdvBsI
+id: node.ct_testimonial.default
+targetEntityType: node
+bundle: ct_testimonial
+mode: default
+content:
+  field_ct_components:
+    weight: 3
+    label: hidden
+    settings:
+      view_mode: vm_testimonials
+      link: ''
+    third_party_settings:
+      ds:
+        ds_limit: ''
+    type: entity_reference_revisions_entity_view
+  field_ct_h_title:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_ct_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: is_medium
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_ct_intro:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+hidden:
+  field_ct_meta_tags: true
+  field_ct_p_image: true
+  field_ct_target_profile: true
+  langcode: true
+  links: true

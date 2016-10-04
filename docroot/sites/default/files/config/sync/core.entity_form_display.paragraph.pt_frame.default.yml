@@ -1,0 +1,38 @@
+uuid: c53e70c3-fbd8-4dd2-8ba2-70392a7a723b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pt_frame.field_pt_text
+    - field.field.paragraph.pt_frame.field_pt_title
+    - paragraphs.paragraphs_type.pt_frame
+  module:
+    - text
+_core:
+  default_config_hash: FEeMmiIxfd-zS3ZlLh5gc4ZfxQP5GWawFHDOoCVP_DQ
+id: paragraph.pt_frame.default
+targetEntityType: paragraph
+bundle: pt_frame
+mode: default
+content:
+  field_pt_text:
+    weight: 3
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+  field_pt_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  translation:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  uid: true

@@ -1,0 +1,12 @@
+uuid: 962eb202-5b45-43f4-a1a8-4098f6c8e51a
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: YFlZuthmlDmEqhyskuNK30naoEmAv-Vmv2uOJNixAv4
+id: node.vm_featured
+label: Featured
+targetEntityType: node
+cache: true

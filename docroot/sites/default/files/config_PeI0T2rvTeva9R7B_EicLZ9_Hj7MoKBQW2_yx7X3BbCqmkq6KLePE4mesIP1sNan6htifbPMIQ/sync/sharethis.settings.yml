@@ -1,0 +1,92 @@
+button_option: stbc_
+comments: 0
+late_load: 0
+location: block
+node_types:
+  ct_news: ct_news
+  ct_carousel: null
+  ct_footer_block: null
+  ct_hp_block: null
+  ct_page: null
+  ct_testimonial: null
+  ct_video: null
+option_extras:
+  'Google Plus One:plusone': '0'
+  'Facebook Like:fblike': '0'
+option_neworzero: 0
+option_onhover: 0
+option_shorten: 1
+service_option: '''Facebook:facebook'',''LinkedIn:linkedin'',''Twitter:twitter'',''Google +:googleplus'',''Email:email'''
+twitter_handle: ''
+twitter_recommends: ''
+twitter_suffix: ''
+webform_options: ''
+weight: 100
+widget_option: st_multi
+cns:
+  donotcopy: null
+  hashaddress: null
+sharethisnodes:
+  article:
+    full: full
+  page:
+    full: full
+  ct_carousel:
+    full: '0'
+    rss: '0'
+    search_index: '0'
+    search_result: '0'
+    teaser: '0'
+    token: '0'
+    vm_featured: '0'
+  ct_footer_block:
+    full: '0'
+    rss: '0'
+    search_index: '0'
+    search_result: '0'
+    teaser: '0'
+    token: '0'
+    vm_featured: '0'
+  ct_hp_block:
+    full: '0'
+    rss: '0'
+    search_index: '0'
+    search_result: '0'
+    teaser: '0'
+    token: '0'
+    vm_featured: '0'
+  ct_news:
+    full: '0'
+    rss: '0'
+    search_index: '0'
+    search_result: '0'
+    teaser: '0'
+    token: '0'
+    vm_featured: '0'
+  ct_page:
+    full: '0'
+    rss: '0'
+    search_index: '0'
+    search_result: '0'
+    teaser: '0'
+    token: '0'
+    vm_featured: '0'
+  ct_testimonial:
+    full: '0'
+    rss: '0'
+    search_index: '0'
+    search_result: '0'
+    teaser: '0'
+    token: '0'
+    vm_featured: '0'
+  ct_video:
+    full: '0'
+    rss: '0'
+    search_index: '0'
+    search_result: '0'
+    teaser: '0'
+    token: '0'
+    vm_featured: '0'
+publisherID: dr-95a8982c-9a9d-2c7b-d315-81ba43a2c835
+langcode: fr
+callesi: '0'

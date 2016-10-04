@@ -1,0 +1,27 @@
+uuid: 26329314-fcff-4046-86c2-f22793a7697b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ct_document
+    - node.type.ct_news
+  module:
+    - file
+id: node.ct_news.field_ct_document
+field_name: field_ct_document
+entity_type: node
+bundle: ct_news
+label: Document
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt pdf'
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

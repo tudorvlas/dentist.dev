@@ -1,0 +1,27 @@
+uuid: e279a97e-3958-4cb4-8a57-c430993c2f8f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pt_document.field_pt_document
+    - field.field.paragraph.pt_document.field_pt_image
+    - paragraphs.paragraphs_type.pt_document
+  module:
+    - file
+_core:
+  default_config_hash: _IkcMVY5KU1RBmuztj2Vgr3XZcLXGDDxTyAFt4ZiUO0
+id: paragraph.pt_document.default
+targetEntityType: paragraph
+bundle: pt_document
+mode: default
+content:
+  field_pt_document:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: file_default
+hidden:
+  created: true
+  field_pt_image: true
+  uid: true

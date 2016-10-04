@@ -1,0 +1,12 @@
+uuid: 65b9afcc-f750-42bd-8305-394786ebaffe
+langcode: fr
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: Hl1DY2SVWfqVAhuVnItS4voR4qjXnzsiP4hdPGm1dkI
+id: taxonomy_term.full
+label: 'Taxonomy term page'
+targetEntityType: taxonomy_term
+cache: true

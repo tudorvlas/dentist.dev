@@ -1,0 +1,24 @@
+uuid: 2db6ee6b-41f0-452d-8fe9-64d14ba97350
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pt_subtitle.field_pt_title
+    - paragraphs.paragraphs_type.pt_subtitle
+_core:
+  default_config_hash: C6Q1BUitUW2uo9l4eZ3nvISaunlZk7tsVN0tvx6tShg
+id: paragraph.pt_subtitle.default
+targetEntityType: paragraph
+bundle: pt_subtitle
+mode: default
+content:
+  field_pt_title:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+hidden:
+  created: true
+  uid: true

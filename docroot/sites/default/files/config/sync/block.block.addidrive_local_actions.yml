@@ -1,0 +1,18 @@
+uuid: 3193a2a7-51c6-42bc-bbdb-813d7e27cd09
+langcode: fr
+status: false
+dependencies:
+  theme:
+    - addidrive
+id: addidrive_local_actions
+theme: addidrive
+region: '-1'
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Actions d''administration principales'
+  provider: core
+  label_display: '0'
+visibility: {  }

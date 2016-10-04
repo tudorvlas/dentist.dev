@@ -1,0 +1,23 @@
+commands:
+# Install Drupal
+  - command: site:install
+    options:
+      langcode: en
+      db-type: mysql
+      db-host: 127.0.0.1
+      db-name: dentistd8 # default database
+      db-user: root # local config
+      db-pass: qwert123 # local config
+      db-port: 3306
+      site-name: 'Site name'
+      site-mail: admin@example.org # default email
+      account-name: admin # default account
+      account-mail: admin@example.org # default email
+      account-pass: admin # default pass
+    arguments:
+      profile: minimal
+# Install themes
+  - command: theme:install
+    arguments:
+      theme:
+        - seven

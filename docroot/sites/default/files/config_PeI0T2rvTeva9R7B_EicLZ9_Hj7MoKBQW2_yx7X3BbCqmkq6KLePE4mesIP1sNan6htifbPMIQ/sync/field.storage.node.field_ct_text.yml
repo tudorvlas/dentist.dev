@@ -1,0 +1,19 @@
+uuid: fda4849b-3423-43a4-96e2-30aed2ae8f7c
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_ct_text
+field_name: field_ct_text
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

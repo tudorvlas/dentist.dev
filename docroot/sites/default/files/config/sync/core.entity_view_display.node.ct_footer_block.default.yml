@@ -1,0 +1,29 @@
+uuid: a5c55bf6-dfdc-4e02-b827-c306a3a3db13
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.ct_footer_block.field_ct_intro
+    - field.field.node.ct_footer_block.field_ct_weight
+    - node.type.ct_footer_block
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: Acnl8XCBuBMRQWDywOX86oYRJG333DY8QLbS2_Ht3OQ
+id: node.ct_footer_block.default
+targetEntityType: node
+bundle: ct_footer_block
+mode: default
+content:
+  field_ct_intro:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  links:
+    weight: 100
+hidden:
+  field_ct_weight: true
+  langcode: true

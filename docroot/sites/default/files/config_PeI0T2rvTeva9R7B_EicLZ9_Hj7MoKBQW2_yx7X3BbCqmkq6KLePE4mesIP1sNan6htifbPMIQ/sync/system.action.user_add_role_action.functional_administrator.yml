@@ -1,0 +1,14 @@
+uuid: 5017a6b3-1e7e-4cfd-a035-eb709d6e7fb7
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.functional_administrator
+  module:
+    - user
+id: user_add_role_action.functional_administrator
+label: 'Ajouter le rôle Functional Administrator aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: functional_administrator

@@ -1,0 +1,21 @@
+uuid: 07286490-6749-4f63-98b8-6b3f9fb32c01
+langcode: fr
+status: true
+dependencies:
+  module:
+    - contact
+id: contact_message.field_cf_magazine
+field_name: field_cf_magazine
+entity_type: contact_message
+type: string
+settings:
+  max_length: 50
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

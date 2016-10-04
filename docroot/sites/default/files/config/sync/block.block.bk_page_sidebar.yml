@@ -1,0 +1,28 @@
+uuid: ce1ffa38-17ca-4849-88d4-ba4605bbadbc
+langcode: fr
+status: true
+dependencies:
+  module:
+    - ctools
+    - f_ct_page
+  theme:
+    - addidrive
+id: bk_page_sidebar
+theme: addidrive
+region: sidebar_first
+weight: -6
+provider: null
+plugin: bk_page_sidebar
+settings:
+  id: bk_page_sidebar
+  label: 'Page Sidebar'
+  provider: f_ct_page
+  label_display: '0'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      ct_page: ct_page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

@@ -1,0 +1,21 @@
+uuid: efd91ea4-b9d0-43a6-ad00-d44f4bd86922
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_pt_title
+    - paragraphs.paragraphs_type.pt_frame
+_core:
+  default_config_hash: gf6DcpJZ2HUV0IPdDwR9uSr4kx6Z9tnK1hxMpNcbkQg
+id: paragraph.pt_frame.field_pt_title
+field_name: field_pt_title
+entity_type: paragraph
+bundle: pt_frame
+label: Title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

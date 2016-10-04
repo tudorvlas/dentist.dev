@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Call source.
+bin/src/drupal "$@"

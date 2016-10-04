@@ -1,0 +1,14 @@
+session:
+  parameter: language
+url:
+  source: path_prefix
+  prefixes:
+    fr: ''
+    en: en
+  domains:
+    fr: ''
+    en: ''
+selected_langcode: site_default
+langcode: fr
+_core:
+  default_config_hash: SE9W5tmu0BbhP5-asj6jt8tCboEVw9KJCnQZzoRjfRY

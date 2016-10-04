@@ -1,0 +1,20 @@
+uuid: 10653ec4-1f08-4670-8a75-525671ba9d45
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.pt_quote
+_core:
+  default_config_hash: BeklKNljvEyFw4QtPG2LPPwiKp_ZUYOGKYslJppy9QE
+id: paragraph.pt_quote.created
+field_name: created
+entity_type: paragraph
+bundle: pt_quote
+label: 'Écrit le'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

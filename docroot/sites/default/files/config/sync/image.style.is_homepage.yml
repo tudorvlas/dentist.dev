@@ -1,0 +1,14 @@
+uuid: 6825f258-aa50-42d7-9417-e77366e17e03
+langcode: fr
+status: true
+dependencies: {  }
+name: is_homepage
+label: 'AD Homepage'
+effects:
+  0ba662f4-f017-4e1b-bd9d-028f1b5a3cad:
+    uuid: 0ba662f4-f017-4e1b-bd9d-028f1b5a3cad
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 860
+      height: 575

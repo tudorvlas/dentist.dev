@@ -1,0 +1,8 @@
+uuid: 7586cf62-3fa3-495a-9268-2f6d71128c13
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: awBZRSWlnKuGpqZgJQ5SYuee7RDfp2MaIYa0neApyY0
+id: pt_frame
+label: 'Text frame'

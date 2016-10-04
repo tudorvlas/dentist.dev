@@ -1,0 +1,23 @@
+uuid: dbdbc1b7-c805-498b-8b72-329c82168d6d
+langcode: fr
+status: true
+dependencies:
+  module:
+    - contact
+_core:
+  default_config_hash: DDv1f5oXPxYr_nKPl2autqhDpZTiaRSmaYBtsnCUrvo
+id: contact_message.field_cf_address
+field_name: field_cf_address
+entity_type: contact_message
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

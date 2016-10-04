@@ -1,0 +1,28 @@
+uuid: cd10430f-bcc9-48fa-a37e-747bb00fc3f7
+langcode: fr
+status: true
+dependencies:
+  module:
+    - ctools
+    - f_ct_testimonial
+  theme:
+    - addidrive
+id: bk_testimonial_sidebar
+theme: addidrive
+region: sidebar_first
+weight: -7
+provider: null
+plugin: bk_testimonial_sidebar
+settings:
+  id: bk_testimonial_sidebar
+  label: 'Testimonial Sidebar'
+  provider: f_ct_testimonial
+  label_display: '0'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      ct_testimonial: ct_testimonial
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

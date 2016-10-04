@@ -1,0 +1,24 @@
+uuid: c6807a30-aac5-439c-9886-3a2e93d205e6
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.vw_carousel
+  module:
+    - views
+  theme:
+    - addidrive
+id: views_block__vw_carousel_main
+theme: addidrive
+region: pre_content
+weight: -6
+provider: null
+plugin: 'views_block:vw_carousel-main'
+settings:
+  id: 'views_block:vw_carousel-main'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

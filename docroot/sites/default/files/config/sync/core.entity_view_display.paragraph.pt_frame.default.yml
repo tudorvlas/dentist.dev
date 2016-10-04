@@ -1,0 +1,33 @@
+uuid: 2e67ade1-8ea3-43c4-a3d1-c611e81a164c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pt_frame.field_pt_text
+    - field.field.paragraph.pt_frame.field_pt_title
+    - paragraphs.paragraphs_type.pt_frame
+  module:
+    - text
+_core:
+  default_config_hash: n46AIJFDbHGpB-CjQNmwl0wb6qQXE0cd1IGaRab_vQc
+id: paragraph.pt_frame.default
+targetEntityType: paragraph
+bundle: pt_frame
+mode: default
+content:
+  field_pt_text:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_pt_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+hidden:
+  created: true
+  uid: true

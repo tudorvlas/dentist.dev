@@ -1,0 +1,32 @@
+uuid: 5ec4ce4b-3329-46af-949a-3ff62464a3bd
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.vw_news
+  module:
+    - system
+    - views
+  theme:
+    - addidrive
+_core:
+  default_config_hash: ojCnIcr0Bt7k-FGM9bbPXHYvVZVAJOuO77Vw0PI1oHU
+id: views_block__vw_news_hp_block
+theme: addidrive
+region: content
+weight: -2
+provider: null
+plugin: 'views_block:vw_news-hp_block'
+settings:
+  id: 'views_block:vw_news-hp_block'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

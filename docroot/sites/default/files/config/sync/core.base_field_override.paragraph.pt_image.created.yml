@@ -1,0 +1,18 @@
+uuid: 1a67146e-da8e-4ad5-bac6-d5ff09a0961a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.pt_image
+id: paragraph.pt_image.created
+field_name: created
+entity_type: paragraph
+bundle: pt_image
+label: 'Écrit le'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created
